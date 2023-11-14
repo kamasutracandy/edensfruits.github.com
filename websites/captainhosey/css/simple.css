@@ -1,0 +1,109 @@
+
+h1.slogan {
+	font-family: 'Metamorphous', cursive;
+	margin-left: 11px;
+	text-shadow: 2px 2px #0199c7;
+	font-size: 32px;
+}
+
+h2.nav {
+	color: black;
+	text-shadow: 2px 2px #0199c7;
+	font-size: 40px;
+	font-family: 'Rock Salt', cursive;
+}
+
+p.fancy {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 14px;
+	margin:4px;
+}
+
+a {
+	padding-bottom: 2px;
+	font-family: Orbitron; 
+	font-size: 17px;
+
+}
+
+a:hover {
+	color: indigo;
+	text-decoration: none;
+}
+
+.three-column
+{
+  background:lavender;
+  margin-bottom: 20px;
+}
+
+
+a.enter:hover{
+	text-shadow: 2px 2px indigo;
+}
+
+h2.nav:hover{
+	text-shadow: 2px 2px indigo;
+	text-decoration: none;
+	outline-style: none
+}
+
+table.rev {
+
+	list-style: none;
+
+}
+
+table.rev td {
+
+  list-style: none;
+  display: inline-block;
+  min-width:280px;
+  width: 45%;
+  min-height: 250px;
+  height: 320px;
+  margin: auto;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  span.LIVE {
+
+    display: inline-block;
+    background: url(media/DiscoLightsVidevo.mp4) center;
+    background-image: url(img/DiscoLightsVidevo.mp4) center; 
+
+  }
+
+  table.rev {
+    border: none;
+    width: 80%;
+    max-width: 500px;
+    min-width: 220px;
+    background: transparent;
+    /*background-image: url(img/DiscoLightsVidevo.mp4) center; */
+    height: auto;
+
+  }
+
+  table.rev td {
+    display: inline-block;
+    width: 90%;
+    margin-left: 15px;
+
+  }
+
+  table.rev tr {
+    display: inline-block;
+    width: 90%;
+    margin-left: 15px;
+
+  }
+
+  table.rev tr td {
+    display: inline-block;
+    width: 100%;
+
+  }
