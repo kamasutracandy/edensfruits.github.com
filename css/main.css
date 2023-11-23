@@ -4,6 +4,7 @@ html {
   width: 100vw;
   height: 100vh;
   color: black;
+  background: black;
   overflow-x: hidden;
 }
 
@@ -90,6 +91,8 @@ https://images.pexels.com/photos/11756986/pexels-photo-11756986.jpeg?auto=compre
 
 
 }
+
+
 
 .new-section {
   padding-top: 50px;
@@ -207,10 +210,33 @@ h5 {
 
 
 
+
+div.box {
+
+
+
+  width: 90%;
+
+  outline: 8px ridge rgba(170, 50, 220, .6);border-radius: 1rem;
+  outline-color: darkmagenta;
+}
+
+p.info {
+  width: 90%;
+  padding: 11px;
+  margin: 11px;
+
+  outline: 8px ridge rgba(170, 50, 220, .6);border-radius: 1rem;
+  outline-color: darkmagenta;
+}
+
+
 ul {
   list-style: none;
   margin-top: -100px;
   margin-bottom: 50px;
+
+
 
 }
 
@@ -375,6 +401,8 @@ div.business {
   outline: 8px ridge rgba(170, 50, 220, .6);border-radius: 1rem;
   outline-color: darkmagenta;
   padding: 11px;
+
+  background: darkgray;
 }
 
 
