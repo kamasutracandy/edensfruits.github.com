@@ -55,8 +55,9 @@ body {
   /*background-image: url("img/bodybackground.png");*/
   background: black;
 
-  color: black;
   /*color: lightyellow;*/
+
+  color: black;
 
   /*overflow: hidden;*/
 
@@ -93,11 +94,9 @@ https://images.pexels.com/photos/11756986/pexels-photo-11756986.jpeg?auto=compre
 
 }
 
-
 p {
   color: black;
 }
-
 
 .new-section {
   padding-top: 50px;
@@ -204,17 +203,12 @@ h3 {
   font-size: 1.8em;
 
 
-
-
 }
 
 
 h5 {
 
   font-family: 'Montserrat Alternates', sans-serif;
-  color: black;
-
-  /*font-family: 'News Cycle', sans-serif;*/
 
 }
 
@@ -229,38 +223,38 @@ div.box {
   /* outline-color: palegoldenrod; */
   outline-color: peachpuff;
   background: #f7e7ce;
-
 }
 
 p.info {
   width: 90%;
   padding: 11px;
   margin: 11px;
+
   outline: 8px ridge rgba(170, 50, 220, .6);border-radius: 1rem;
-  /*outline-color: palegoldenrod;*/
+  /*outline-color: palegoldenrod; */
   outline-color: peachpuff;
 }
 
 
 ul {
   list-style: none;
-  margin-top: -50px;
+  margin-top: -100px;
   margin-bottom: 50px;
+
 
 
 }
 
 ul li {
   display: inline-block;
-  max-width: 23vw;
-  min-width: 270px;
+  width: 250px;
   height: 300px;
-  margin: 100px;
+  margin: 50px;
 
 }
 
 ul li img {
-  width: 25vw;
+  width: 17vw;
   height: auto;
 }
 
@@ -396,12 +390,10 @@ div.business {
   text-align: center;
   margin-top: 20px;
 
-
-
-  background: #f7e7ce;
-  outline: 8px ridge rgba(170, 50, 220, .6);border-radius: 1rem;
-  outline-color: peachpuff;
+  /*outline-color: palegoldenrod;
+  background: #f7e7ce;*/
 }
+
 
  
 /* mobile version of reserving dobermans hidden */
@@ -417,12 +409,12 @@ div.business {
   height: auto;
   outline: 8px ridge rgba(170, 50, 220, .6);border-radius: 1rem;
   /*outline-color: darkmagenta;*/
-  /*outline-color: lightcoral; */
+  padding: 11px;
+ 
   /*outline-color: palegoldenrod;*/
   outline-color: peachpuff;
-  padding: 11px;
+  background: #f7e7ce;
 
-  background: #F7E7CE;
 }
 
 
@@ -431,7 +423,6 @@ div.business {
 .flip-card {
 
   outline: 8px ridge rgba(170, 44, 220, .7);border-radius: .7rem;
-  /*outline-color: darkmagenta;*/
   outline-color: palegoldenrod;
 
   background-color: transparent;
@@ -472,7 +463,9 @@ div.business {
 }
 
 .flip-card-front {
+  /*background: linear-gradient(to left, #A8186E, #F2541B);*/
   background: linear-gradient(to left, lightcoral, #F2541B);
+
   color: black;
   z-index: 2;
   display: flex;
@@ -482,7 +475,9 @@ div.business {
 }
 
 .flip-card-back {
+  /*background: linear-gradient(to right, #F2541B, #C91853);*/
   background: linear-gradient(to right, lightcoral, peachpuff);
+
   transform: rotateY(180deg);
   z-index: 1;
   display: flex;
@@ -586,8 +581,8 @@ div.business {
   --_p: 0px;
   outline-color: var(--color);
   outline-offset: .05em;
+  /*color: lightgoldenrodyellow; */
   color: lightcoral;
-  /*color: lightgoldenrodyellow;*/
 }
 
 .button-89:active {
@@ -675,8 +670,7 @@ div.click-animations .button-92 {
   transition: 0.3s;
 
   outline: 8px ridge rgba(170, 44, 220, .7);border-radius: .7rem;
-  /*outline-color: darkmagenta;*/
-  outline-color: lightcoral;
+  outline-color: darkmagenta;
 
 
 }
@@ -724,49 +718,6 @@ div.click-animations .button-92 {
   background-color: #555;
 }
 
-blockquote {
-  margin-left: 11%;
-  width: 80%;
-  text-align: left;
-  display: inline-block;
-}
-
-
-/*
-blockquote ul {
-  list-style: none;
-  margin-top: 11px;
-}
-
-blockquote ul li {
-  display: inline;
-  width: 30%;
-  margin: 4px;
-}
-
-blockquote ul li img {
-  max-width: 300px;
-}
-
-*/
-
-blockquote span {
-  width: 40%;
-}
-
-blockquote span img.left {
-  width: 25%;
-  min-width: 123px;
-  float: left;
-  margin-right: 11px;
-}
-
-blockquote span img.right {
-  width: 25%;
-  min-width: 250px;
-  float: right;
-  margin-right: 11px;
-}
 
 footer {
   text-align: center;
@@ -790,41 +741,6 @@ footer a {
   color: #69bcf4;
 }
 
-
-footer.blockquote {
-  background: transparent;
-  color: lightcoral;
-  font-size: 1em;
-}
-
-footer.blockquote a:hover {
-  text-decoration: unset;
-  color: lightcoral;
-}
-
-footer.blockquote a:touch-action {
-  text-decoration: blink;
-  color: lightcoral;
-}
-
-footer.blockquote a:active {
-  color: blueviolet;
-}
-
-
-a:active {
-color: blueviolet;
-
-}
-
-span a:hover {
-  color: lightcoral;
-  text-decoration: unset;
-}
-
-span a:active {
-  color: blueviolet;
-}
 
 /* Back to Top button */
 
@@ -947,7 +863,7 @@ span a:active {
     }
 
     img {
-      width: 90vw;
+      width: 90%;
       height: auto;
     }
 
@@ -960,11 +876,6 @@ span a:active {
 
     div.mobileheader {
       visibility: hidden;
-    }
-
-    ul li {
-
-      margin-left: 0px;
     }
 
 
@@ -1070,12 +981,6 @@ div.mobileheader {
   visibility: hidden;
 }
 
-ul li {
-
-  margin-left: 15px;
-}
-
-
 }
   
 
@@ -1117,7 +1022,6 @@ ul li {
     height: auto;
     margin-left: -150px;
     margin-right: 10px;
-
   }
 
   div#header a{
@@ -1138,11 +1042,11 @@ ul li {
 
 
   ul {
-    width: 80vw;
+    width: 70vw;
   }
 
   ul li {
-    width: 80vw;
+    width: 70vw;
     margin-left: -20px;
   }
 
@@ -1150,8 +1054,6 @@ ul li {
     width: 80vw;
 
   }
-
-
 
   div.business {
     width: 80vw;
@@ -1190,11 +1092,9 @@ ul li {
 }
 
 img {
-  width: 100vw;
+  width: 90vw;
   height: auto;
 }
-
-
 
 /*
 
@@ -1218,7 +1118,7 @@ div.mobileheader {
 
 @media screen and (min-width: 1400px) {
   img {
-    width: 20vw;
+    width: 10vw;
     height: auto;
   }
 
@@ -1610,5 +1510,4 @@ div.mobileheader {
 }
 
 }
-
 
