@@ -432,7 +432,9 @@ div.business {
 
   outline: 8px ridge rgba(170, 44, 220, .7);border-radius: .7rem;
   /*outline-color: darkmagenta;*/
-  outline-color: palegoldenrod;
+  /*outline-color: palegoldenrod; */
+
+  outline-color: black;
 
   background-color: transparent;
   width: 40vw;
@@ -763,7 +765,7 @@ blockquote span img.left {
 
 blockquote span img.right {
   width: 25%;
-  min-width: 250px;
+  min-width: 235px;
   float: right;
   margin-right: 11px;
 }
