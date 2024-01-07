@@ -959,6 +959,11 @@ span a:active {
     min-height: 150px;
     }
 
+    iframe.puppies {
+      min-width: 200px;
+      width: 70%;
+    }
+
 
     div.mobileheader {
       visibility: hidden;
