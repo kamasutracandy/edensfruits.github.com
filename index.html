@@ -1116,6 +1116,38 @@ function contact() {
 
       <br>
       <br>
+      <!-- Pop Up Disclaimer -->
+      <a href="#" id="popup-link">DISCLAIMER</a>
+
+      <div id="popup-window">
+        
+        <h1>Things to Know</h1>
+        <p>At Eden's Fruit Ranch we have a very thorough screening process.<br>We will not discuss reserving or delivering one of our puppies unless the following criteria are met:</p>
+        <p>1. You email us at info@edensfruit.com and fill out our brief questionnaire.</p>
+        <p>2. You pass our background check.</p>
+        <p>3. You make a deposit via Zelle per our instructions in email to officially reserve your puppy and remove them from available puppies listed for adoption.</p> 
+        <p>Only then will we reach the point of conversation of meeting to deliver your puppy.<br>One of the reasons that we do a questionnaire and run background checks on prospective homes, is because these dogs are like a loaded gun. In the wrong hands they are very dangerous and a liability.</p>
+        <p>These are working dogs, not just born and raised in a traditional home setting, but heavily socialized in a diverse environment of animals on our animal rescue sanctuary that includes chickens, ducks, rabbits, cats, other dogs, a wolf-dog, a turtle and more. When you adopt one of our puppies, you are not adopting a pet, you are adopting a new member of your family.<br>Thank you for your consideration in providing the best possible home for one of our puppies!</p>
+        <button id="close-button">Close</button>
+   
+      </div> 
+
+      <script>
+        // Get the elements by their ID
+        var popupLink = document.getElementById("popup-link");
+        var popupWindow = document.getElementById("popup-window");
+        var closeButton = document.getElementById("close-button");
+        // Show the pop-up window when the link is clicked
+        popupLink.addEventListener("click", function(event) {
+          event.preventDefault();
+          popupWindow.style.display = "block";
+        });
+        // Hide the pop-up window when the close button is clicked
+        closeButton.addEventListener("click", function() {
+          popupWindow.style.display = "none";
+        });
+      </script>  
+
     </div>
     <!-- end of div.box -->
 </center>
@@ -1438,6 +1470,14 @@ function topFunction() {
 
 </body>
 
+<!-- auto load disclaimer popup -->
+
+<script>
+  $(document).ready(function(){
+     $
+    ('#popup-link').trigger('click')
+    });
+</script>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
