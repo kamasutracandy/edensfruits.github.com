@@ -31,6 +31,23 @@ html {
   display: none;
 } 
 
+
+#shopup-window {
+  position: fixed;
+  width: 77vw;
+  height: auto;
+  background: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+} 
+
 /*
 
 @-webkit-keyframes gradient {
@@ -989,6 +1006,39 @@ span a:active {
 
       margin-left: 0px;
     }
+
+    #popup-window {
+      position: relative;
+      width: 77vw;
+      height: auto;
+      background: white;
+      border: 1px solid black;
+      padding: 10px;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      display: none;
+    } 
+
+
+    #shopup-window {
+      position: relative;
+      width: 77vw;
+      height: auto;
+      background: white;
+      border: 1px solid black;
+      padding: 10px;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      display: none;
+    } 
 
 
   }
