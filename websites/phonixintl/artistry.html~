@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="keywords" content="artist, body painter, renowned body painter, designer, programmer, developer, famous, famous band, Jacob Alexander, Jacob Alexander Figueroa, Xander, Zander, the artist Zander, current projects, norell, the band famous">
+  <meta name="description" content="Multi-faceted Artist, Body Painter, Designer, Programmer, and More. View Zander's current projects here.">
+    <title>Ph&ouml;nix Intl Creative Agency</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/star.css" type="text/css" />
+    <link rel="stylesheet" href="css/artist.css" type="text/css" />
+    <link rel="stylesheet" href="css/foundation/foundation.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <script src="js/custom.modernizr.js"></script>
+    <link href="styles/ninja-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js/ninja-slider.js" type="text/javascript"></script>
+   <style>
+
+      /* Responsive Nav Bar */
+
+    ul.topnav {
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      background-size: 100%;
+      background-repeat: repeat;
+      min-height:70px;
+      height:auto;
+      width: 100%;
+      
+
+    }
+
+    /* Slider at Footer */
+
+    #ninja-slider{margin-top:30px;}
+    /* loading image indicator */    
+    #ninja-slider div.preload 
+    {
+      background: black url(img/loading.gif) no-repeat center center;
+    }
+    /* --------- navigation controls ------- */   
+    /* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */    
+    #ninja-slider-prev, #ninja-slider-next
+    {
+      position: absolute;
+      top: 40%;
+      width:64px;
+      height:64px;
+      display:inline-block;
+      margin:0;
+      background-image: url(img/navs.png);
+    }
+    #ninja-slider-prev {
+      left: 0;
+      background-position:0 0;
+    }
+    #ninja-slider-prev:hover {background-position:0 -64px;}
+
+    #ninja-slider-next {
+      right: 0;
+      background-position:-64px 0;
+    }
+    #ninja-slider-next:hover {background-position:-64px -64px;}
+
+    #ninja-slider-pause-play { display:none;}
+
+
+  </style>
+</head>
+<body>
+<ul class="topnav" id="phonixnav">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="team.html">ABOUT</a></li>
+  <li><a href="artistry.html">ARTISTRY</a></li>
+  <li><a href="xprojects.html">PROJECTS</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    <script>
+      function myFunction(){
+        var x = document.getElementById("phonixnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </li>
+</ul>
+<hr>
+<hr>      
+<hr>
+
+<h1>What We Do</h1>
+
+  <!--<div style="background: #fff; padding: 0.6em; color: #333; margin-top: 4px; font-family: 'Michroma', sans-serif; font-size: 65px; text-align: center; letter-spacing: 2px; word-spacing: 2px;">Norell</div>-->
+
+  <div class="page-wrapper">
+    <section class="content">
+      <div><h3 style="font-size: 30px;">Painting</h3>
+            <img src="img/dvs1.jpg" alt="PhonixIntl.com Photography" title="High Seas Heaven Exhibition at DVS1 Hush Studios"/>
+            <p class="free">Importance of Style</p>
+
+            <p class="buy">The artist Zander, also known by Jacob Alexander Figueroa, is a sought-after body painter, with experience spanning more than a decade.</p>
+            <center><a href="zander.html"><img src="img/xanderv.jpg" alt="The Artist Zander" title="Click for more on the artist." style="width: 80%; height: auto;" onmouseover="this.src='img/xandervhover.png';" onmouseout="this.src='img/xanderv.jpg';"/></a></center>
+            <p class="buy">He is available for body painting, and is open to your budget, fully ready to work within your means to achieve your vision.</p>
+
+            <p class="buy" style="font-size:15px;">*We're available to travel internationally and nationally, provided expenses are included in the project budget.</p>
+
+              <ul class="clearing-thumbs clearing-feature" data-clearing> 
+                <li class="clearing-featured-img"><a href="images/model/Maze-Amazed.jpg" id="resume" class="btn" style="width: 295px; margin-left:auto;" title="Swipe to view images.">View Gallery</a></li>
+                <li><a href="images/model/Maze-Amazed.jpg" title="Body Painting by Zander"><img src="images/model/Maze-Amazed.jpg"></a></li>
+                <li><a href="images/model/32.jpg"><img src="images/model/32.jpg"></a></li> 
+                <li><a href="images/model/10.jpg"><img src="images/model/10.jpg"></a></li> 
+                <li><a href="images/model/buckaneer.jpg"><img src="images/model/buckaneer.jpg"></a></li> 
+                <li><a href="images/model/maze.jpg"><img src="images/model/maze.jpg"></a></li> 
+                <li><a href="images/model/medusa.jpg"><img src="images/model/medusa.jpg"></a></li> 
+                <li><a href="images/model/angie2.jpg"><img src="images/model/angie2.jpg"></a></li> 
+                <li><a href="images/model/stargirl.jpg"><img src="images/model/stargirl.jpg"></a></li> 
+                <li><a href="images/model/40.jpg"><img src="images/model/40.jpg"></a></li> 
+                <li><a href="images/model/kittie.jpg"><img src="images/model/kittie.jpg"></a></li> 
+                <li><a href="images/model/angie.jpg"><img src="images/model/angie.jpg"></a></li>
+                <li><a href="images/model/ellie.jpg"><img src="images/model/ellie.jpg"></a></li> 
+                <li><a href="images/model/carley.jpg"><img src="images/model/carley.jpg"></a></li> 
+                <li><a href="images/model/12.jpg"><img src="images/model/12.jpg"></a></li> 
+                <li><a href="images/model/13.jpg"><img src="images/model/13.jpg"></a></li> 
+                <li><a href="images/model/16.jpg"><img src="images/model/16.jpg"></a></li> 
+                <li><a href="images/model/19.jpg"><img src="images/model/19.jpg"></a></li>
+                <li><a href="images/model/25.jpg"><img src="images/model/25.jpg"></a></li> 
+                <li><a href="images/model/epic.jpg"><img src="images/model/epic.jpg"></a></li>
+                <li><a href="images/model/39.jpg"><img src="images/model/39.jpg"></a></li> 
+                <li><a href="images/model/45.jpg"><img src="images/model/45.jpg"></a></li> 
+                <li><a href="images/model/46.jpg"><img src="images/model/46.jpg"></a></li> 
+                <li><a href="images/model/48.jpg"><img src="images/model/48.jpg"></a></li> 
+                <li><a href="images/model/49.jpg"><img src="images/model/49.jpg"></a></li>
+                <li><a href="images/model/RichardPendleton7.jpg"><img src="images/model/RichardPendleton7.jpg"></a></li> 
+                <li><a href="images/model/50.jpg"><img src="images/model/50.jpg"></a></li> 
+                <li><a href="images/model/angel devil.jpg"><img src="images/model/angel devil.jpg"></a></li> 
+                <li><a href="images/model/Behind the Scenes1.jpg"><img src="images/model/Behind the Scenes1.jpg"></a></li> 
+                <li><a href="images/model/coral.jpg"><img src="images/model/coral.jpg"></a></li> 
+                <li><a href="images/model/Rainbow.jpg"><img src="images/model/Rainbow.jpg"></a></li> 
+                <li><a href="images/model/RichardPendleton3.jpg"><img src="images/model/RichardPendleton3.jpg"></a></li> 
+                <li><a href="images/model/ButterflyWoman-640x428.jpg"><img src="images/model/ButterflyWoman-640x428.jpg"></a></li> 
+                <li><a href="images/model/BlackWidow-640x534.jpg"><img src="images/model/BlackWidow-640x534.jpg"></a></li> 
+                <li><a href="images/model/XXX.jpg"><img src="images/model/XXX.jpg"></a></li>
+              </ul>
+
+            <!-- What we can do. -->
+            <p class="free">Costumes</p>
+            <p class="free">Cosplay</p>
+            <p class="free">Photoshoots</p>
+            <p class="free">Venues</p>
+            <p class="free">Parties</p>
+            <p class="free">Bachelor &amp; Bachelorette</p>
+
+            <center>
+
+
+              <img src="images/model/3.jpg" style="min-height: 250px; width:80%;" onmouseover="this.src='images/model/3hover.png';" onmouseout="this.src='images/model/3.jpg';"/>
+              
+
+            </center>
+            
+   
+            <p class="buy">Are you planning an event that could be complimented by some tasteful live body painting?</p>
+            <p class="buy">Body painting by Zander can add color and fun to any event imaginable, from private parties, birthday parties, nightclubs, concerts, yachts, warehouses, public places, the world is your oyster!</p>
+            <ul class="summerset">
+              <li><img src="images/model/painting.jpg" style=""/></li>
+              <li><img src="images/model/summerset.jpg" style="width: 51.33%; height: auto; margin-left: 5px;"/></li>
+            </ul> 
+            <p class="buy">Have a theme in mind and just searching for the visionary to help you achieve it? Look no further! Jacob Alexander has curated and produced several themed events over the years. No feat is too big, no idea too large.</p>
+          <p class="buy">Jacob Alexander has body painted alongside such acts as Paul Van Dyk, and Benny Benassi. You could be next!</p>
+          <div id='ninja-slider' style="">
+            <ul>
+                  <li>
+                      <div data-image="img/md/z1.jpg">
+                          <div style="position:absolute;width:100%;height:35px;top:auto;bottom:0px;">
+                              <div style="position:absolute;width:100%;top:0;line-height:35px;background:#000;opacity:0.3;">&nbsp;</div>
+                              
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div data-image="img/md/z2.jpg">
+                          <div style="position:absolute;width:100%;height:35px;top:auto;bottom:0px;">
+                              <div style="position:absolute;width:100%;top:0;line-height:35px;background:#000;opacity:0.3;">&nbsp;</div>
+                              
+                          </div>
+                      </div>
+                  </li>
+
+                  <li>
+                      <div data-image="img/md/z3.jpg">
+                          <div style="position:absolute;width:100%;height:60px;top:0;text-align:center;color:#666;">
+                            <div style="position:absolute;width:100%;top:0;line-height:35px;background:#000;opacity:0.3;">&nbsp;</div>
+                              
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div data-image="img/md/z4.jpg">
+                          <div style="position:absolute;width:100%;height:36px;top:auto;bottom:0px;">
+                            <div style="position:absolute;width:100%;top:0;line-height:35px;background:#000;opacity:0.3;">&nbsp;</div>
+                              
+                          
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div data-image="img/md/z5.jpg">
+                          <div style="position:absolute;width:100%;height:36px;top:auto;bottom:0px;">
+                            <div style="position:absolute;width:100%;top:0;line-height:35px;background:#000;opacity:0.3;">&nbsp;</div>
+                              
+                    
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div data-image="img/md/z6.jpg">
+                          <div style="position:absolute;width:100%;height:36px;top:auto;bottom:0px;">
+                            <div style="position:absolute;width:100%;top:0;line-height:35px;background:#000;opacity:0.3;">&nbsp;</div>
+            
+                    
+                          </div>
+                      </div>
+                  </li>
+              </ul>      
+        </div>
+          <p class="buy">If you're interested in a body painting session, please know that rates vary according to your vision you wish to bring to life. Regardless of your budget size, the artist is prepared to accomodate your needs.</p>
+          <p class="buy">Contact us today to begin your free personal consultation!</p>
+
+          <img src="img/bodypaint1.jpg" alt="PhonixIntl.com Photography"/>
+      
+
+      </div>
+
+
+      
+    </section>
+    <aside class="sidebar left">
+      <div><h3 style="font-size: 30px;">Websites</h3>
+
+        <img src="img/web.jpg" alt="PhonixIntl.com Website Design and Development"/> 
+        <p class="free">Importance of Website Quality</p>
+        
+        
+        <p class="buy">Let's say you're a really talented musician and have amazing shows and amazing merchandise.</p>
+        <p class="buy">At the end of the day do you have your own website?</p>
+        <!-- What we can do. -->
+        <p class="free">Artists</p>
+        <p class="free">Entrepreneurs</p>
+        <p class="free">Musicians</p>
+        <p class="free">Photographers</p>
+   
+        <p class="buy">We offer competitive rates for website consultations and website development and design.</p>
+        <p class="buy">We are your one-stop shop for your web and design needs!</p>
+        <!-- TBF  songs below private as of now
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177438264&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171996208&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        -->
+
+
+        <!-- TBF
+        <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4iVrlY-ap98?rel=0" frameborder="0" allowfullscreen></iframe>
+      -->
+
+        <!-- Original by Norell
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49523082&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      -->
+
+        <!-- Cover Songs
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/85971399&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        -->
+
+      </div>
+    </aside>
+    <aside class="sidebar right">
+      <div><h3 style="font-size: 30px;">Photography</h3>
+
+        <img src="img/featured.jpg" alt="PhonixIntl.com Photography"/>
+        <p class="free">Importance of Your Image</p>
+          
+        <p class="buy">With years of experience both behind the camera as well as in front of the camera, <br>we understand perspectives.</p>
+        <p class="buy">We are available for your photography needs on location.</p>
+        <p class="buy">We offer customizable rates including, but not limited to:</p>  
+        <center>
+          
+          <p class="free">Portraits</p>
+          <p class="free">Family</p>
+          <p class="free">Glamour</p>
+          <p class="free">Lookbooks</p>
+          <p class="free">Portfolio</p>
+          <p class="free">Concerts</p>
+          <p class="free">Events</p>
+             
+          <!--<p class="free">Samples:</p>-->
+
+          <ul class="docs">
+            <li><img src="img/angel.jpg" alt="Photo by PhonixIntl.com vw|NK, Model: Angel"/></li>
+            <li><img src="img/Kelsey.jpg" style="margin-left: 5px;" alt="Photo by PhonixIntl.com vw|NK, Model: Kelsey"/></li>
+          </ul>
+
+          <ul class="docs">
+            <li><img src="img/LoBeth.jpg" alt="Photo by PhonixIntl.com vw|NK, Model: Lo Beth J"/></li>
+            <li><img src="img/Ethan.jpg" style="margin-left: 5px;" alt="Photo by PhonixIntl.com vw|NK, Model: Artist Ethan Heidlebaugh"/></li>
+          </ul>
+
+
+
+          <a href="photos.html" title="View More" target="popup" onclick="window.open('photos.html','popup','width=800px;,height=800px;'); return false;" class="ui-btn ui-btn-inline ui-corner-all"><img src="img/viewmore.jpg" alt="View More Images" style="width: 89%; margin-left: 14px; max-width: 700px; min-width: 200px; max-height: 500px;" /></a>
+          <p>Click above to view more.</p>
+        </center>
+
+
+      </div>
+            
+
+    </aside>
+
+
+</div>  
+<!-- below will open in module window -->
+
+       
+
+<div id="footer" style="background-color:lavender; margin-top: 100px; color: black; clear:both;text-align:center; font-family: 'Michroma', sans-serif;">Copyright &copy; Ph&ouml;nix LLC</div>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+<script type="text/javascript" src="js/star.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/foundation/foundation.clearing.js"></script>
+<!-- Other JS plugins can be included here -->
+
+<script>
+  $(document).foundation();
+</script>
+</body>
+</html>

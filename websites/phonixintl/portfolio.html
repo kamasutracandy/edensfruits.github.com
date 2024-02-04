@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="Designed By" content="Zander &amp; Norell">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+  <meta name="HandheldFriendly" content="true"/>  
+  <meta name="MobileOptimized" content="320"/>  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+	<link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/port.css" type="text/css" />
+	<link href="css/photoswipe.css" rel="stylesheet">
+	<style>
+		/* for portfolio */
+
+		#SocialLinks { padding: 10px 0 0 0; }
+		#SocialLinks:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+		#SocialLinks a { display: block; float: left; padding-right: 15px; }
+
+		.gallery { list-style: none; padding: 0; margin: 0; }
+		.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+		.gallery li { float: left; width: 33.33333333%; }
+		.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+		.gallery li img { display: block; width: 100%; height: auto; }
+
+
+		/* For inline examples only */
+		#PhotoSwipeTarget { width: 100%; height: 200px; }
+
+		#Indicators { text-align: center; margin-top: 20px; }
+		#Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
+		#Indicators span.current{ background: #EEBF02; }
+		
+		.main-nav a{font-family: 'Megrim'; font-size: 22px;}
+		a.logo{font-family: 'Megrim'; font-size:40px;}
+		p{font-family: 'Megrim';}
+		p.hireUs{font-family: 'Julius Sans One'; font-size: 16px;}
+		/* end portfolio page */
+	</style>
+
+	<script src="js/libs/modernizr.custom.min.js"></script>
+    <script src="js/libs/klass.min.js"></script>
+    <script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
+	<script type="text/javascript">
+
+        (function(window, PhotoSwipe){
+        
+            document.addEventListener('DOMContentLoaded', function(){
+            
+                var
+                    options = {
+                    
+                        getToolbar: function(){
+                            return '<div class="ps-toolbar-close" style="padding-top: 12px;">Close</div><div class="ps-toolbar-play" style="padding-top: 12px;">Play</div><div class="ps-toolbar-previous" style="padding-top: 12px;">Previous</div><div class="ps-toolbar-next" style="padding-top: 12px;">Next</div>';
+                            // NB. Calling PhotoSwipe.Toolbar.getToolbar() wil return the default toolbar HTML
+                        }
+                    
+                    },
+                    gallery1Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery1 a'), options );
+                    gallery2Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery2 a'), options );
+                    gallery3Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery3 a'), options );
+                    gallery4Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery4 a'), options );
+                    gallery5Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery5 a'), options );
+                    
+            
+            }, false);
+            
+            
+        }(window, window.Code.PhotoSwipe));
+        
+    </script>	
+</head>
+<div class="wrap">
+		<header class="main-header">
+			<a href="#" class="logo" href="#">Portfolio</a>
+			<nav class="main-nav">
+				<!--<a link href="#">Android APPS</a>-->
+				<!--<a link href="#">iOS APPS</a> -->
+				<a href="index.html">Home</a>
+				<a href="contact.html">Contact</a>
+				<!--<a href="#"></a>-->
+				<!--<a href="debragrant/debragrant.html" />Current Project</a>-->
+			</nav>
+		</header>
+		<div class="content">
+			<div class="secondary col">
+	        <ul id="Gallery5" class="gallery">
+	        	<li><a href="images/full/009.jpg"><img src="images/thumbs/009.jpg" alt="" /></a></li>
+                <li><a href="images/full/010.jpg"><img src="images/thumbs/010.jpg" alt="" /></a></li>
+                <li><a href="images/full/011.jpg"><img src="images/thumbs/011.jpg" alt="" /></a></li>
+                <li><a href="images/full/012.jpg"><img src="images/thumbs/012.jpg" alt="" /></a></li>
+	        <p>Desktop/Mobile Web</p>
+	        </ul>
+	      </div>
+	      
+		<div class="secondary col">
+           	<ul id="Gallery4" class="gallery">
+                <li><a href="images/full/005.jpg"><img src="images/thumbs/005.jpg" alt="" /></a></li>
+                <li><a href="images/full/006.jpg"><img src="images/thumbs/006.jpg" alt="" /></a></li>
+                <li><a href="images/full/007.jpg"><img src="images/thumbs/007.jpg" alt="" /></a></li>
+                <li><a href="images/full/008.jpg"><img src="images/thumbs/008.jpg" alt="" /></a></li>
+                <p>Mobile Web APP</p>
+	        </ul>
+			</div>
+		<div class="extra col">
+				<img src="img/Android.png" width="175px" height="175px" style="position:center;">
+			</div>
+		</div>
+		<div class="secondary col">
+				<ul id="Gallery1" class="gallery">
+		            <li><a href="images/full/one.jpg"><img src="images/thumbs/1.png" alt="" /></a></li>
+	                <li><a href="images/full/five.jpg"><img src="images/thumbs/5.png" alt="" /></a></li>
+	                <li><a href="images/full/six.jpg"><img src="images/thumbs/6.png" alt="" /></a></li>
+	                <li><a href="images/full/eight.jpg"><img src="images/thumbs/8.png" alt="" /></a></li>
+	                <li><a href="images/full/nine.jpg"><img src="images/thumbs/9.png" alt="" /></a></li>
+	                <li><a href="images/full/end.jpg"><img src="images/thumbs/end.png" alt="" /></a></li>
+	            </ul>
+		</div>
+		<div class="secondary col">
+		<p>Tour Manager APP - iOS <br> <p class="hireUs"> Virtual booking for the working musician. Contact the venue and plan your flight! (Click left icons).</p></p>
+		</div>
+		<div class="extra col">
+				<img src="img/windows.png" width="175" height="175px" style="position:center;">
+			</div>
+			
+
+		<div class="secondary col">
+		
+		    <ul id="Gallery2" class="gallery">
+                <li><a href="images/full/launch.jpg"><img src="images/thumbs/launch.jpg" alt="" /></a></li>
+                <li><a href="images/full/003.jpg"><img src="images/thumbs/003.jpg" alt="" /></a></li>
+                <li><a href="images/full/1.jpg"><img src="images/thumbs/1.jpg" alt="" /></a></li>
+                <li><a href="images/full/6.jpg"><img src="images/thumbs/6.jpg" alt="" /></a></li>
+                <li><a href="images/full/7.jpg"><img src="images/thumbs/7.jpg" alt="" /></a></li>
+            </ul>
+			</div>
+			
+			<div class="secondary col">
+			<p>Event Planner APP - iOS</p>
+	            <ul id="Gallery3" class="gallery">
+		  		<ul id="Gallery1" class="gallery">
+                <li><a href="images/full/001.jpg"><img src="images/thumbs/001.jpg" alt="" /></a></li>  
+            </ul>
+		</div>
+				<div class="extra col">
+				<img src="img/Apple-logo.jpg" width="175px" height="175px" style="position:center;">
+			</div>
+		<footer>
+		</footer>
+	</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/port.js"></script>
+</html>
+
+
+
+	

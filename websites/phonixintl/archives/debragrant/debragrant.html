@@ -1,0 +1,541 @@
+<!-- ASD 1210 - Week 2 -->
+<!-- Jacob Figueroa -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Debra Grant Photography</title>
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta content="True" name="HandheldFriendly">
+    <meta content="320" name="MobileOptimized">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Mobile IE needs ClearType for smoothing fonts -->
+    <meta content="on" http-equiv="cleartype"><!-- StyleSheets under here -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat+Subrayada|Satisfy|Lovers+Quarrel|Stalemate|Buda:300|Rock+Salt|Over+the+Rainbow|Syncopate' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css" />
+    <link href="themes/filmnoir.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="themes/6/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <link href="css/photoswipe.css" rel="stylesheet">
+        <style>
+
+        /* style for portfolio page below */
+        span.reference{
+            position:fixed;
+            left:10px;
+            bottom:10px;
+            font-size:12px;
+        }
+        span.reference a{
+            color:#666;
+            text-shadow:1px 1px 1px #fff;
+            text-transform:uppercase;
+            text-decoration:none;
+            margin-right:30px;
+        }
+        span.reference a:hover{
+            color:#333;
+        }
+        .content{
+            width:700px;
+            margin:0 auto;
+        }
+            
+        .msg_slideshow{
+            margin:0 auto;
+        }
+        a.back{
+            background:transparent url(back.png) no-repeat top left;
+            height:13px;
+            width:248px;
+            display:block;
+            clear:both;
+            text-indent:-9000px;
+            margin:20px auto;
+        }
+        a.back:hover{
+            background-position:0px -13px;
+        }
+
+        a#suerrorslink{display:none;}
+
+        a#susuccess{display:none;}
+
+        /*#hidden_content5{display:none;}*/
+
+        #SocialLinks { padding: 10px 0 0 0; }
+        #SocialLinks:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+        #SocialLinks a { display: block; float: left; padding-right: 15px; }
+
+        .gallery { list-style: none; padding: 0; margin: 0; }
+        .gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+        .gallery li { float: left; width: 33.33333333%; }
+        .gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+        .gallery li img { display: block; width: 100%; height: auto; }
+
+
+        /* For inline examples only */
+        #PhotoSwipeTarget { width: 100%; height: 200px; }
+
+        #Indicators { text-align: center; margin-top: 20px; }
+        #Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
+        #Indicators span.current{ background: #EEBF02; }
+
+
+        .special {
+            font-family: 'Gurmukhi MN';
+            font-size: 14px;
+            color: #000;
+            background: #F5FBEF;
+            border: 1px solid #E3F6CE;
+            padding: 10px;
+            margin: 10px auto;
+            margin-top: 50px;
+        }
+
+    </style>
+    <!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+    <script src="themes/6/mcVideoPlugin.js" type="text/javascript"></script>
+    <script src="themes/6/js-image-slider.js" type="text/javascript"></script>
+    <script src="js/libs/modernizr.custom.min.js"></script>
+    <script type="text/javascript" src="js/klass.min.js"></script>
+    <script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
+        <script type="text/javascript">
+
+            (function(window, PhotoSwipe){
+                
+                document.addEventListener('DOMContentLoaded', function(){
+                    
+                    var
+                        options = {
+                            
+                            getToolbar: function(){
+                                return '<div class="ps-toolbar-close" style="padding-top: 12px;">Close</div><div class="ps-toolbar-play" style="padding-top: 12px;">Play</div><div class="ps-toolbar-previous" style="padding-top: 12px;">Previous</div><div class="ps-toolbar-next" style="padding-top: 12px;">Next</div>';
+                                // NB. Calling PhotoSwipe.Toolbar.getToolbar() wil return the default toolbar HTML
+                            }
+                            
+                        },
+                        gallery1Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery1 a'), options );
+                        gallery2Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery2 a'), options );
+                        gallery3Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery3 a'), options );
+                        gallery4Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery4 a'), options );
+                        gallery5Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery5 a'), options );
+                            
+                    
+                }, false);
+                    
+                    
+            }(window, window.Code.PhotoSwipe));
+                
+        </script>   
+
+    
+</head>
+
+<body>
+    <!--Home Page -->
+
+    <div data-role="page" id="home">
+        <div data-position="fixed" data-role="header" data-theme="b">
+            <h1>Debra Grant Photography</h1>
+        </div>
+        <div class="special">
+            <div data-role="content">
+    	        <article>
+                <div id="sliderFrame">
+                    <div id="slider">
+                        <video preload="none" data-image="images/image-slider-1.jpg" controls>
+                            <source data-src="prod/mcvideo.mp4" type="video/mp4" />
+                            <source data-src="prod/mcvideo.ogg" type="video/ogg" />
+                        </video>
+                        <a class="lazyImage" href="images/image-slider-3.jpg">Slide 3</a>
+                        <audio preload="none" data-image="images/image-slider-5.jpg" controls>
+                            <source data-src="prod/mcaudio.mp3" type="audio/mpeg">
+                            <source data-src="prod/mcaudio.ogg" type="audio/ogg">
+                        </audio>
+                    </div>
+                    <!--thumbnails
+                    <div id="thumbs" data-autovideo="true">
+                        <div class="thumb">
+                            <img src="images/thumb1.jpg" /><div class="playvideo"></div>
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb3.jpg" />
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb5.jpg" /><div class="playvideo"></div>
+                        </div>
+                    </div>-->
+                </div>
+                
+                <h2>Be pampered like a star.</h2>
+    		    <h3>Photography by Debra Grant</h3>
+
+                <h2>Because you deserve it.</h2>
+    		      <hr></hr>
+    	    	</article>
+    	        
+                <!--
+                <p>Join the Mailing List?</p>
+
+                <p><a data-icon="arrow-r" data-iconpos="right" data-role="button"
+                data-theme="a" href="#signup">Sign Up</a></p>
+
+                <p>Deborah Grant Photography</p><br>
+                -->
+                <center><img src="images/Deb.jpg" style="width:45%; height: auto;"/></center>
+
+                <!-- Insert slider here -->
+
+
+            </div>
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home"><img class="star" src="img/home.jpg" /></a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery"><img class="star" src="img/portfolio.jpg"/></a>
+                    </li>
+
+                    <li>
+                        <a href="#contact"><img class="star" src="img/contact.jpg"/></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- <a href="#display" id="mailingList">Open Errors</a> -->
+    </div><!-- Sign Up Page -->
+
+    <div data-role="page" id="signup">
+        <div data-position="fixed" data-role="header" data-theme="b">
+        	<h1>Debra Grant Photography</h1>
+        </div>
+
+        <div data-role="content">
+            <form action="" id="signupform" name="signupform">
+            	<h1 class="mail">Join the Mailing List!</h1>
+                <h3 class="listPage">Your Information</h3>
+
+                <h5>*Fields are Required.</h5>
+
+                <div data-role="fieldcontain">
+                    <label for="firstname">*First Name:</label> <input class=
+                    "required" id="firstname" name="firstname" onblur=
+                    "this.placeholder = 'Your First Name'" onfocus=
+                    "this.placeholder = ''" placeholder="Your First Name" type=
+                    "text" value="">
+                </div>
+
+                <div data-role="fieldcontain">
+                    <label for="lastname">*Last Name:</label> <input class=
+                    "required" id="lastname" name="lastname" onblur=
+                    "this.placeholder = 'Your Last Name'" onfocus=
+                    "this.placeholder = ''" placeholder="Your Last Name" type=
+                    "text" value="">
+                </div>
+
+                <div data-role="fieldcontain">
+                    <label for="dob">Birthday:</label> <input data-role=
+                    "datebox" id="dob" name="mydate" onblur=
+                    "this.placeholder = 'MM/DD/YYYY'" onfocus=
+                    "this.placeholder = ''" placeholder="MM/DD/YYYY" type=
+                    "date" value="">
+                </div>
+
+                <div data-role="fieldcontain">
+                    <label for="email">*Email:</label> <input class=
+                    "required email" id="email" name="email" onblur=
+                    "this.placeholder = 'example@email.com'" onfocus=
+                    "this.placeholder = ''" placeholder="example@email.com"
+                    type="text" value="">
+                </div>
+
+                <div data-role="fieldcontain">
+                    <label for="phone">*Phone:</label> <input class="required"
+                    id="phone" name="phone" onblur=
+                    "this.placeholder = '555-555-5555'" onfocus=
+                    "this.placeholder = ''" placeholder="555-555-5555" type=
+                    "tel" value="">
+                </div>
+                <!--    <input name="mydate" id="mydate" type="date" data-role="datebox" data-options='{"useClearButton": true, "useCollapsedBut": true, "afterToday": true, "maxDays": 60 "mode": "slidebox"}' /> -->
+
+
+                <div data-role="fieldcontain">
+                    <label for="slider-choice">Which method would you prefer to
+                    receive updates?:</label> <select data-role="slider" id=
+                    "contact" name="slider-choice">
+                        <option value="Email">
+                            Email
+                        </option>
+
+                        <option value="SMS">
+                            SMS
+                        </option>
+                    </select>
+                </div>
+
+                <div data-role="fieldcontain">
+                    <label for="comments">Leave a comment?:</label> 
+                    <textarea id="comments" name="comments">
+</textarea>
+                </div>
+
+                <div>
+                    <input data-icon="check" data-theme="b" id="submitData"
+                    type="submit" value="Submit"> 
+
+                    <input data-icon="alert"
+                    data-theme="e" id="clearButton" type="reset" value="Reset">
+
+                    <a data-rel="dialog" data-transition="pop" href=
+                    "#signuperrors" id="suerrorslink"></a>
+
+                    <a data-rel="dialog" data-transition="pop" href=
+                    "#signupsuccess" id="susuccess"></a>
+                </div>
+            </form>
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home"><img class="star" src="img/home.jpg" /></a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery"><img class="star" src="img/portfolio.jpg"/></a>
+                    </li>
+
+                    <li>
+                        <a href="#contact"><img class="star" src="img/contact.jpg"/></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div><!-- Error Dialog -->
+
+    <div data-role="dialog" id="signuperrors">
+        <div data-position="fixed" data-role="header" data-theme="b">
+           <h1>Debra Grant Photography</h1>
+        </div>
+        <div data-role="content">
+        	<h1 class="mail">Missing Fields</h1>
+            <ul>
+                <li>Test.</li>
+
+                <li></li>
+
+                <li></li>
+            </ul>
+        </div>
+    </div><!-- Success Dialog -->
+
+    <div data-role="dialog" id="signupsuccess">
+        <div data-position="fixed" data-role="header" data-theme="b">
+           <h1>Debra Grant Photography</h1>
+        </div>
+
+        <div data-role="content">
+        	<h1 class="mail">Thank You!</h1>
+            <ul>
+                <li>You have successfully joined the Mailing List!</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Display Galleries -->
+
+    <div data-role="page" id="gallery">
+        <div data-position="fixed" data-role="header" data-theme="b">
+            <h1>Debra Grant Photography</h1>
+        </div>
+
+        <div data-role="content">
+        	<!--<h1 class="mail">Portfolio</h1>-->
+            <div class="special">
+            	<!-- Gallery to go here -->
+                <section class="acc_slider">
+                    <ul>
+                      <li>
+                        <img src="http://mghayour.xzn.ir/html/avnslider/images/avengers1.jpg"  alt="AvnSlider_Slide" width="469" height="293" />
+                        <div class="slide_title">Gallery Name</div>
+                        <div class="slide_textarea">Any description <br /> you would like !</div>
+                      </li>
+                      <li>
+                        <img src="http://mghayour.xzn.ir/html/avnslider/images/avengers2.jpg"  alt="AvnSlider_Slide" width="469" height="293" />
+                        <div class="slide_title">Gallery Name</div>
+                        <div class="slide_textarea">Any description <br /> you would like !</div>
+                      </li>
+                      <li>
+                        <img src="http://mghayour.xzn.ir/html/avnslider/images/avengers3.jpg"  alt="AvnSlider_Slide" width="469" height="293" />
+                        <div class="slide_title">Gallery Name</div>
+                        <div class="slide_textarea">Any description <br /> you would like !</div>
+                      </li>
+                      <li>
+                        <img src="http://mghayour.xzn.ir/html/avnslider/images/avengers4.jpg"  alt="AvnSlider_Slide" width="469" height="293" />
+                        <div class="slide_title">Gallery Name</div>
+                        <div class="slide_textarea">Any description <br /> you would like !</div>
+                      </li>
+                        <li>
+                        <img src="http://mghayour.xzn.ir/html/avnslider/images/avengers5.jpg"  alt="AvnSlider_Slide" width="469" height="293" />
+                        <div class="slide_title">Gallery Name</div>
+                        <div class="slide_textarea">Any description <br /> you would like !</div>
+                      </li>
+                      <li>
+                        <img src="http://mghayour.xzn.ir/html/avnslider/images/avengers6.jpg"  alt="AvnSlider_Slide" width="469" height="293" />
+                        <div class="slide_title">Gallery Name</div>
+                        <div class="slide_textarea">Any description <br /> you would like !</div>
+                      </li>
+                      <li>
+                        <img src="http://mghayour.xzn.ir/html/avnslider/images/avengers7.jpg"  alt="AvnSlider_Slide" width="469" height="293" />
+                        <div class="slide_title">Gallery Name</div>
+                        <div class="slide_textarea">Any description <br /> you would like !</div>
+                      </li>
+                      <li>
+                        <img src="http://mghayour.xzn.ir/html/avnslider/images/avengers8.jpg"  alt="AvnSlider_Slide" width="469" height="293" />
+                        <div class="slide_title">Gallery Name</div>
+                        <div class="slide_textarea">Any description <br /> you would like !</div>
+                      </li>
+                    </ul>
+                </section>
+                <h2 class="-mghayour"></h2>
+
+
+
+
+
+                <h3 style="font-family: 'Buda', cursive; font-size: 20px;"> Gallery One </h3>
+                <ul id="Gallery1" class="gallery">
+                        <!-- Tour Manager Demo -->
+                    <li><a href="images/full/one.jpg"><img src="images/thumbs/1.png" alt="" /></a></li>
+                    <li><a href="images/full/three.jpg"><img src="images/thumbs/3.png" alt="" /></a></li>
+                    <li><a href="images/full/four.jpg"><img src="images/thumbs/4.png" alt="" /></a></li>
+                    <li><a href="images/full/five.jpg"><img src="images/thumbs/5.png" alt="" /></a></li>
+                    <li><a href="images/full/six.jpg"><img src="images/thumbs/6.png" alt="" /></a></li>
+                    <li><a href="images/full/eight.jpg"><img src="images/thumbs/8.png" alt="" /></a></li>
+                    <li><a href="images/full/nine.jpg"><img src="images/thumbs/9.png" alt="" /></a></li>
+                    <li><a href="images/full/end.jpg"><img src="images/thumbs/end.png" alt="" /></a></li>
+                </ul>
+                <h3 style="font-family: 'Buda', cursive; font-size: 20px;"> Gallery Two </h3>
+                        <!-- Norell Demo App -->
+                <ul id="Gallery2" class="gallery">
+                    <li><a href="images/full/launch.jpg"><img src="images/thumbs/launch.jpg" alt="" /></a></li>
+                    <li><a href="images/full/003.jpg"><img src="images/thumbs/003.jpg" alt="" /></a></li>
+                    <li><a href="images/full/1.jpg"><img src="images/thumbs/1.jpg" alt="" /></a></li>
+                    <li><a href="images/full/6.jpg"><img src="images/thumbs/6.jpg" alt="" /></a></li>
+                    <li><a href="images/full/7.jpg"><img src="images/thumbs/7.jpg" alt="" /></a></li>
+                </ul>
+                <h3 style="font-family: 'Buda', cursive; font-size: 20px;"> Gallery Three </h3>
+
+                        <!-- Event Planner - iOS -->
+                <ul id="Gallery3" class="gallery">
+                    <li><a href="images/full/001.jpg"><img src="images/thumbs/001.jpg" alt="" /></a></li>
+                </ul>
+
+                        <!-- Mobile Web App -->
+                <h3 style="font-family: 'Buda', cursive; font-size: 20px;"> Gallery Four </h3>
+                <ul id="Gallery4" class="gallery">
+                    <li><a href="images/full/005.jpg"><img src="images/thumbs/005.jpg" alt="" /></a></li>
+                    <li><a href="images/full/006.jpg"><img src="images/thumbs/006.jpg" alt="" /></a></li>
+                    <li><a href="images/full/007.jpg"><img src="images/thumbs/007.jpg" alt="" /></a></li>
+                    <li><a href="images/full/008.jpg"><img src="images/thumbs/008.jpg" alt="" /></a></li>
+                </ul>
+                        <!-- Desktop/Mobile Web -->
+                <h3 style="font-family: 'Buda', cursive; font-size: 20px;"> Gallery Five </h3>
+                <ul id="Gallery5" class="gallery">
+                    <li><a href="images/full/009.jpg"><img src="images/thumbs/009.jpg" alt="" /></a></li>
+                    <li><a href="images/full/010.jpg"><img src="images/thumbs/010.jpg" alt="" /></a></li>
+                    <li><a href="images/full/011.jpg"><img src="images/thumbs/011.jpg" alt="" /></a></li>
+                    <li><a href="images/full/012.jpg"><img src="images/thumbs/012.jpg" alt="" /></a></li>
+                </ul>
+
+
+               
+                <div id="SocialLinks">
+                    <a href="http://www.twitter.com/KarnakGallery"><img src="images/twittericon.png" width="32" height="32" alt="Twitter" /></a>
+                    <a href="http://www.facebook.com/PhonixLLC"><img src="images/facebookicon.png" width="32" height="32" alt="Facebook" /></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home"><img class="star" src="img/home.jpg" /></a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery"><img class="star" src="img/portfolio.jpg"/></a>
+                    </li>
+
+                    <li>
+                        <a href="#contact"><img class="star" src="img/contact.jpg"/></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- About/Contact Page -->
+
+    <div data-role="page" id="contact">
+        <div data-position="fixed" data-role="header" data-theme="b">
+        	<h1>Debra Grant Photography</h1>
+        </div>
+
+        <div data-role="content">
+        	<!-- <h1 class="mail">About </h1>
+            Insert Contact form in here -->
+            <center><script type="text/javascript" src="https://formscentral.acrobat.com/Clients/Current/FormsCentral/htmlClient/scripts/adobe.form.embed.min.js"></script>
+<script type="text/javascript">;ADOBEFORMS.EmbedForm({formId:"iMprIIVGVIIQVsohOG6eSg"});</script></center>
+
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home"><img class="star" src="img/home.jpg" /></a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery"><img class="star" src="img/portfolio.jpg"/></a>
+                    </li>
+
+                    <li>
+                        <a href="#contact"><img class="star" src="img/contact.jpg"/></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+        <!--<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/twitter.js" type="text/javascript"></script>-->
+    </div>
+
+    <!-- JavaScript under here -->
+   
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+    <script src=
+"http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script> 
+    <script src="js/libs/jquery.validate.min.js" type="text/javascript"></script> 
+    <script type="text/javascript" src="js/port.js"></script>
+</body>
+</html>

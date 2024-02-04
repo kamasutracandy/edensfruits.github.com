@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Rachelle Pauli Official Site</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="Built &amp; Designed By:" content=" PhonixIntl.com | BandFamous.com | Zander &amp; Norell">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+  <meta name="HandheldFriendly" content="true"/>  
+  <meta name="MobileOptimized" content="320"/>  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="keywords" content="Rachelle Pauli, musician, music, singer, beautiful singer, indie, independent, dream pop, pop, try love">
+  <meta name="description" content="Rachelle Pauli Official Website. 
+    Music &amp; Lyrics:
+    I write about real life. My songs are about the every day life, experiences and emotions that we as human beings have all experienced at one time or another. Sometimes the best way to capture this is through song.
+    I just want people to be able to connect with my music and find themselves in the music. -Rachelle Pauli
+    Style:
+    Piano has always been what I wanted the core of the music to be around and then build around that. I also wanted to keep rhythmic drums another heavy component in the development of my style by keeping a modern pop-urban style but still keeping the soul in the foundation of the music">
+  
+  <!-- Include Bootstrap CSS and Javascript Files -->
+  <link rel="stylesheet" href="css/simple.css" type="text/css"/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Allura|Cinzel|Clicker+Script|Dawning+of+a+New+Day|Euphoria+Script|Fontdiner+Swanky|Fredericka+the+Great|Raleway|Ruthie|Sacramento|Syncopate|Trirong" rel="stylesheet">
+
+  <script src="js/modernizr.custom.phonix.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <style>
+      /* Responsive Nav Bar */
+
+    ul.topnav {
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #D5DEDE;
+      background-size: 100%;
+      background-repeat: repeat;
+      height:auto;
+      width: 100%;
+      min-height: 65px;
+      
+
+    }
+
+  </style>
+</head>
+<body>
+
+
+<ul class="header">
+  <li>
+    <h1 class="slogan">Rachelle Pauli</h1>
+  </li>
+  <li>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/rachellepaulimusic" target="_blank" title="Facebook"><img src="img/social/fb.png" /></a></li>
+      <li><a href="https://twitter.com/rachellepauli" target="_blank" title="Twitter"><img src="img/social/twitter.png" /></a></li>
+      <li><a href="https://www.instagram.com/RachellePauli/" target="_blank" title="Instagram"><img src="img/social/ig.png" /></a></li>
+      <li><a href="https://www.youtube.com/user/RachellePauli" target="_blank" title="YouTube"><img src="img/social/youtube.jpg" style="height: 28px; width: auto;"/></a></li>
+      <li><a href="home.html#contact" title="Contact"><img src="img/social/email.png" style="height: 30px; width: auto;"/></a></li>
+    </ul>
+  </li>
+</ul>
+
+
+  <center>
+    <nav>
+      <ul class="topnav" id="phonixnav">
+        <li><a href="home.html"><h2 class="nav">Home</h2></a></li>
+        <li><a href="home.html#music"><h2 class="nav">Music</h2></a></li>
+        <li><a href="home.html#shop"><h2 class="nav">Shop</h2></a></li>
+        <li><a href="home.html#contact"><h2 class="nav">Contact</h2></a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+          <script>
+            function myFunction(){
+              var x = document.getElementById("phonixnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+          </script>
+        </li>
+      </ul>
+    </nav>
+  </center>
+
+  <div id="home">
+    <section>
+      <div id="slider">
+        <a href="#" class="control_next">></a>
+        <a href="#" class="control_prev"><</a>
+        <ul>
+          <!-- "Try Love" Music Video will be #1 in play here -->
+          <li><iframe width="100%" height="300" src="https://www.youtube.com/embed/ZQPdkcFNCCQ" frameborder="0" allowfullscreen></iframe></li>
+          <li>Placeholder 2</li>
+          <li>Placeholder 3</li>
+          <li style="background: #aaa;">Placeholder 4</li>
+        </ul>  
+      </div>
+    </section>
+
+    <!-- Insert Stacks Begin -->
+    <section class="three-column">
+    <div class="container" >
+
+      <div class="row">
+        <div class="col-md-4">
+          
+
+         <img src="img/rachelle.jpg" alt="Check out the new hit single 'Try Love' by Rachelle Pauli"/>
+           
+        </div>
+     
+         <div class="col-md-4">
+          <img src="img/quote.jpg" alt="Rachelle Pauli Official Website" style="margin-top:25px;"/>
+          <br>
+          <br>
+          <center><p class="signature">-Rachelle Pauli</p></center>
+          
+          <br>
+
+          
+        </div>
+     
+        <div class="col-md-4">
+
+          <img src="img/rachelle2.jpg" alt="Check out the new hit single 'Try Love' by Rachelle Pauli"/>
+
+        
+        </div>
+
+      </div>
+
+    </div> 
+    </section>
+  </div>
+<!-- Music Content -->
+  <div id="music">
+    <center><h1 class="music">Music</h1></center>
+    <hr></hr>
+    <section class="three-column">
+    <div class="container" >
+
+      <div class="row">
+        <div class="col-md-4">
+
+         <img src="img/trylove.jpg" alt="Check out the new hit single 'Try Love' by Rachelle Pauli" style="width: 100%; height: auto;"/>
+     
+
+
+         <br>
+           
+        </div>
+     
+         <div class="col-md-4">
+
+          <center style="margin-bottom: -20px;">
+
+            <p class="music" style="margin-top:20px;">Try Love</p>
+            <p class="music2" style="margin-bottom: -10px;">Available Now</p>
+
+            <br>
+           
+          </center>
+
+          
+        </div>
+     
+        <div class="col-md-4">
+          <br>
+          <center>
+
+            <ul class="music">
+              <li>
+                <a href="https://itunes.apple.com/gb/album/try-love-single/id1170118725" target="_blank"><img src="img/music/applemusic.png" alt="Listen to Try Love on Apple Music!" style="width: 160px; height: auto;"/></a>
+              </li>
+              <li>
+                <a href="https://itunes.apple.com/us/album/try-love-single/id1170118725" target="_blank"><img src="img/music/itunes.png" alt="Buy Try Love on iTunes!" style="height: 57px; width: 158px;"/></a>
+              </li>
+              <li>
+                <a href="https://play.spotify.com/album/1xmrBMTMNNij6TjuBqvfGW" target="_blank"><img src="img/music/spotify.png" alt="Listen to Try Love on Spotify!" style="width: 160px; height: 61px;"/></a>
+              </li>
+              <li>
+                <a href="https://www.amazon.com/Try-Love-Rachelle-Pauli/dp/B01M7VEWM2/ref=sr_1_1?s=dmusic&ie=UTF8&qid=1478280939&sr=1-1-mp3-albums-bar-strip-0&keywords=rachelle+pauli+try+love" target="_blank"><img src="img/music/amazonmusic.png" alt="Buy Try Love on Amazon Music!" style="width: 158px; height: auto;"/></a>   
+              </li>
+              <li>
+                <a href="https://play.google.com/store/music/album?id=Bl23zeq6jkwk6mhboqizyu7ju4u&tid=song-Tvqptysbvoye7h5t7lbk4kqrjry&hl=en" target="_blank"><img src="img/music/googleplay.png" alt="Buy Try Love on Google Play!" style="width: 190px; height: auto;"/></a>
+              </li>
+            </ul>
+
+            
+          </center>
+    
+          <br>
+        </div>
+
+      </div>
+
+    </div> 
+    </section>
+    <!--extra section under music, if need be
+    <section class="three-column">
+    <div class="container" >
+
+      <div class="row">
+        <div class="col-md-4">
+          
+
+           
+        </div>
+     
+         <div class="col-md-4">
+
+         
+         <br>
+
+          
+        </div>
+     
+        <div class="col-md-4">
+
+       
+        </div>
+
+      </div>
+
+    </div> 
+    </section>
+    -->
+
+  </div>
+<!-- Shop Content  -->
+  <div id="shop">
+    <center><h1 class="shop">Shop</h1></center>
+    <hr></hr>
+    <section class="three-column">
+    <div class="container" >
+
+      <div class="row">
+        <div class="col-md-4">
+          
+          <!-- ul li of 2 to four items, probably 2 in each -->
+
+          <ul id="shop">
+            <li>
+              <a href="#" data-reveal-id="iphoneone"><img src="img/shop/white-hoodie.jpg" alt="White Crop Pleated Sweater" title="White Crop Pleated Sweater - $30.00"/></a>
+              <p class="fancy" style="margin-top:20px;">White Crop Pleated Sweater</p>
+              <p class="fancy">$30.00</p>
+              <button>Add To Cart</button>
+            </li>
+            <li>
+              <a href="#" data-reveal-id="iphonetwo"><img src="img/shop/black-and-white.jpg" alt="Black and White Crop Top Long Sleeve Shirt" title="Black and White Crop Top Long Sleeve Shirt - $30.00" /></a>
+              <p class="fancy" style="margin-top:20px;">Black and White Crop Top Long Sleeve Shirt</p>
+              <p class="fancy">$30.00</p>
+              <button>Add To Cart</button>
+            </li>
+          </ul>
+           
+        </div>
+     
+         <div class="col-md-4">
+
+          <!-- ul li of 2 to four items, probably 2 in each -->
+
+          <ul id="shop">
+            <li>
+              <a href="#" data-reveal-id="iphonetwo"><img src="img/shop/blue-sweater.jpg" alt="Try Love Blue Sweater" title="Try Love Blue Sweater - $45.00" /></a>
+              <p class="fancy" style="margin-top:20px;">Try Love Blue Sweater</p>
+              <p class="fancy">$45.00</p>
+              <button>Add To Cart</button>
+            </li>
+            <li>
+              <a href="#" data-reveal-id="iphoneone"><img src="img/shop/crop-top.jpg" alt="Coral Crop Top" title="Coral Crop Top - $30.00"/></a>
+              <p class="fancy" style="margin-top:20px;">Coral Crop Top</p>
+              <p class="fancy">$30.00</p>
+              <button>Add To Cart</button>
+              
+            </li>
+          </ul>
+          
+        </div>
+     
+        <div class="col-md-4">
+
+          <ul id="shop">
+            <li>
+              <a href="#" data-reveal-id="iphoneone"><img src="img/shop/rainbow-white-hood.jpg" alt="Rainbow Try Love Hoodie in White" title="Rainbow Try Love Hoodie in White - $40.00"/></a>
+              <p class="fancy" style="margin-top:20px;">Rainbow Try Love Hoodie in White</p>
+              <p class="fancy">$40.00</p>
+              <button>Add To Cart</button>
+            </li>
+            <li>
+              <a href="#" data-reveal-id="iphonetwo"><img src="img/shop/pink-crop-hood.jpg" alt="Pink Crop Hoodie" title="Try Love Pink Crop Hoodie - $40.00" /></a>
+              <p class="fancy" style="margin-top:20px;">Try Love Pink Crop Hoodie</p>
+              <p class="fancy">$40.00</p>
+              <button>Add To Cart</button>
+            </li>
+
+          </ul>
+
+          <br>
+        </div>
+
+      </div>
+
+    </div> 
+    </section>
+    
+    <section class="three-column">
+    <div class="container" >
+
+      <div class="row">
+        <div class="col-md-4">
+          
+          <!-- ul li of 2 to four items, probably 2 in each -->
+
+          <ul id="shop">
+            <li>
+              <a href="#" data-reveal-id="iphoneone"><img src="img/shop/organic-sweater.jpeg" alt="Try Love Organic Sweater" title="Try Love Organic Sweater - $45.00"/></a>
+              <p class="fancy" style="margin-top:20px;">Try Love Organic Sweater</p>
+              <p class="fancy">$45.00</p>
+              <button>Add To Cart</button>
+            </li>
+            <li>
+              <a href="#" data-reveal-id="iphonetwo"><img src="img/shop/tan-crop-sweater.jpg" alt="Pink Crop Hoodie" title="Try Love Pink Crop Hoodie - $40.00" /></a>
+              <p class="fancy" style="margin-top:20px;">Try Love Tan Crop Sweater</p>
+              <p class="fancy">$40.00</p>
+              <button>Add To Cart</button>
+            </li>
+          </ul>
+           
+        </div>
+     
+         <div class="col-md-4">
+
+          <!-- ul li of 2 to four items, probably 2 in each -->
+
+          <ul id="shop">
+            <li>
+              <a href="#" data-reveal-id="iphonetwo"><img src="img/shop/peach-sweater.jpg" alt="Try Love Peach Sweater" title="Try Love Peach Sweater - $35.00" /></a>
+              <p class="fancy" style="margin-top:20px;">Try Love Peach Sweater</p>
+              <p class="fancy">$35.00</p>
+              <button>Add To Cart</button>
+            </li>
+            <li>
+              <a href="#" data-reveal-id="iphonetwo"><img src="img/shop/try-love-suit.jpg" alt="Try Love Matching Suit in Gray" title="Try Love Matching Suit in Gray - $45.00" /></a>
+              <p class="fancy" style="margin-top:20px;">Try Love Matching Suit in Gray</p>
+              <p class="fancy">$45.00</p>
+              <button>Add To Cart</button>
+            </li>
+          </ul>
+          
+        </div>
+     
+        <div class="col-md-4">
+
+          <ul id="shop">
+            <li>
+              <a href="#" data-reveal-id="iphonetwo"><img src="img/shop/white-hood.jpg" alt="White Hoodie Try Love Black Text" title="Try Love White Hoodie - $40.00" /></a>
+              <p class="fancy" style="margin-top:20px;">Try Love White Hoodie</p>
+              <p class="fancy">$40.00</p>
+              <button>Add To Cart</button>
+            </li>
+            <li>
+              <a href="#" data-reveal-id="iphonetwo"><img src="img/shop/mens-hoodie.jpg" alt="Try Love Mens Sweatshirt" title="Try Love Mens Sweatshirt - $40.00" /></a>
+              <p class="fancy" style="margin-top:20px;">Try Love Mens Sweatshirt</p>
+              <p class="fancy">$40.00</p>
+              <button>Add To Cart</button>
+            </li>
+          </ul>
+
+          <br>
+        </div>
+
+      </div>
+
+    </div> 
+    </section>
+  </div>
+<!-- Contact information and newsletter -->
+  <div id="contact">
+    <center><h1 class="contact">Contact</h1></center>
+    <hr></hr>
+    <section class="three-column">
+    <div class="container" >
+
+      <div class="row">
+        <div class="col-md-4">
+          
+         <p class="fancy" style="margin-top:20px;">Newsletter</p>
+    
+           
+        </div>
+     
+         <div class="col-md-4">
+
+         <p class="fancy" style="margin-top:20px;">Interested in getting involved with the production team or making beats for Rachelle Pauli?</p>
+     
+         <br>
+
+         <a target="_blank" href="mailto:rachellepaulibeats@gmail.com?
+            &amp;subject=Collaborate%20%With%20%Rachelle%20%Pauli
+            &amp;body=Hey%20Rachelle,">
+            Send Rachelle Pauli an Email</a>
+
+          
+        </div>
+     
+        <div class="col-md-4">
+
+         <p class="fancy" style="margin-top:20px;">All Other Inquiries</p>
+         <p class="fancy">Contact</p>
+         <br>
+         <a target="_blank" href="mailto:weallout@gmail.com?
+            &amp;subject=Inquiry%20%For%20%Rachelle%20%Pauli
+            &amp;body=Hey%20%Rachelle%20%Pauli%20%And%20%Team,">weallout@gmail.com</a>
+          <br>
+        </div>
+
+      </div>
+
+    </div> 
+    </section>
+   
+  </div>
+
+  <br>
+  <br>
+  <center> 
+    <!--<a href="https://twitter.com/XanderFigueroa" class="twitter-follow-button" data-show-count="false">Follow @XanderFigueroa</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
+  </center>
+<div id="footer" style="background-color:#D5DEDE; color: black; clear:both;text-align:center; font-family: 'Raleway', sans-serif; margin-top:100%;"><p>Copyright &copy; Rachelle Pauli | Website By: <a href="http://phonixintl.com" target="_blank">Ph&ouml;nix LLC</a></p></div>
+  <!-- Insert Stacks End -->
+<script src="js/slide.js"></script>
+
+</body>
+</html>

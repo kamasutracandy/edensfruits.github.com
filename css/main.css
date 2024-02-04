@@ -946,7 +946,17 @@ span a:active {
   @media only screen and (max-width: 500px) {
 
      header {
+      margin-top: 20px;
       z-index: 99;
+      
+    }
+
+    div#header a {
+      font-size: .4em;
+      width: 80%;
+      height: auto;
+      margin: 2px auto;
+      padding: 2px auto;
     }
 
     span.LIVE {

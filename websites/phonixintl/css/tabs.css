@@ -1,0 +1,44 @@
+/*Tabs */
+#hidden_content{display:none;}
+
+/* /END mixens*/
+body.tab {
+  font-size: 16px;
+  
+}
+
+.colGroup {
+  width: 100%;
+  .clearfix;
+  
+  .col {
+    width: 18%;
+    float: left;
+    margin: 0 1%;
+    position: relative;
+    perspective: 800;
+   
+  }
+}
+
+
+.btn {
+  background: #e74c3c;
+  text-decoration: none;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 1em 0;
+  display: block;
+  color: #fff;
+  transition: background .3s;
+  
+  &:hover {
+    background: lighten(#e74c3c, 10%);
+  }
+  
+}
+
+td {
+	color:#bc2c2c;
+}
+

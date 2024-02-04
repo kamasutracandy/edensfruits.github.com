@@ -1,0 +1,1155 @@
+<!-- ASD 1210 - Week 2 -->
+<!-- Jacob Figueroa -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="mobile development, mobile, mobile friendly, native apps, application, web apps, web app, native app, iOS, Android, mobile device, development, web development, mobile friendly website, intuitive website, design, UX, experts, Zander, Norell">
+    <meta name="description" content="Phönix Official Website. Your Friendly Web/Mobile Development Experts. Artists. Designers. Developers. What can we do for you?">
+    <title>Ph&ouml;nix LLC</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta content="True" name="HandheldFriendly">
+    <meta content="320" name="MobileOptimized">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Mobile IE needs ClearType for smoothing fonts -->
+    <meta content="on" http-equiv="cleartype"><!-- StyleSheets under here -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css" />
+    <link rel="stylesheet" href="themes/phonixmobile.min.css" />
+    <!-- would like to incorporate this new theme but it is being difficult <link rel="stylesheet" href="themes/phonixPinkMobile.css" />-->
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/photoswipe.css" rel="stylesheet">
+        <style>
+        h1.mail {
+            font-family: 'Gurmukhi MN';
+            font-size: 200%;
+            text-align: center;
+            color: #E1DFD3;
+            border-color: indigo;
+            letter-spacing: 2px;
+        }
+
+        h2.team {
+            font-family: 'Poiret One';
+            font-size: 200%;
+            text-align: center;
+            color: #E1DFD3;
+            border-color: indigo;
+            letter-spacing: 2px;
+        }
+
+        .ui-header .ui-title, .ui-footer .ui-title {
+            font-family: Helvetica, Sans-Serif;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+        }
+
+        /*
+        h1 {
+            background-color: #5E3333;
+            text-align: center;
+            color: #E1DFD3;
+            border-color: indigo;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            text-shadow: 2px 2px #ff0000;
+            font-size: 150%;
+            font-family: 'Great Vibes', cursive;
+            padding: 1em;
+            margin: -1em -1em 1em -1em;
+            margin-bottom: -25px;
+        }
+        */
+
+        h1{
+           font-family: Helvetica, Sans-Serif; 
+           background-color: #5E3333;
+            text-align: center;
+            color: #E1DFD3;
+            border-color: indigo;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            text-shadow: 2px 2px #ff0000;
+            font-size: 100%;
+            padding: 1em;
+            margin: -1em -1em 1em -1em;
+            margin-bottom: -25px;
+        }
+
+        h2 {
+            /*background-color: #5E3333;*/
+            text-align: center;
+            /*color: #E1DFD3;*/
+            color: #5E3333;
+            border-color: indigo;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            text-shadow: 2px 2px #ff0000;
+            font-size: 150%;
+            font-family: 'Great Vibes', cursive;
+            padding: 1em;
+            margin: -1em -1em 1em -1em;
+            margin-bottom: -25px;
+        }
+
+        h3{
+            font-family: "Codystar";
+            font-size: 400%;
+            color: purple;
+            text-align: center;
+            background-image: url();
+        }
+        h3:hover{
+            color: red;
+        }
+        /* style for portfolio page below */
+        span.reference{
+            position:fixed;
+            left:10px;
+            bottom:10px;
+            font-size:12px;
+        }
+        span.reference a{
+            color:#666;
+            text-shadow:1px 1px 1px #fff;
+            text-transform:uppercase;
+            text-decoration:none;
+            margin-right:30px;
+        }
+        span.reference a:hover{
+            color:#333;
+        }
+        .content{
+            width:700px;
+            margin:0 auto;
+        }
+            
+        .msg_slideshow{
+            margin:0 auto;
+        }
+        a.back{
+            background:transparent url(back.png) no-repeat top left;
+            height:13px;
+            width:248px;
+            display:block;
+            clear:both;
+            text-indent:-9000px;
+            margin:20px auto;
+        }
+        a.back:hover{
+            background-position:0px -13px;
+        }
+
+        a#suerrorslink{display:none;}
+
+        a#susuccess{display:none;}
+
+        #hidden_content5{display:none;}
+
+        #hidden_content6{display:none;}
+
+        #hidden_content7{display:none;}
+
+        #hidden_content8{display: none;}
+
+        #hidden_content9{display: none;}
+
+        #hidden_content10{display: none;}
+
+        #hidden_content11{display: none;}
+
+        #phonix{display:block;}
+        
+        .colGroup {
+            width: 100%;
+            .clearfix;
+
+  
+            .col {
+                width: 18%;
+                float: left;
+                margin: 0 1%;
+                position: relative;
+                perspective: 800;
+   
+        }
+        input.punch2 {
+            background: #bc2c2c;
+            border-top: 1px solid #bc2c2c;
+            border-right: 1px solid #bc2c2c;
+            border-bottom: 1px solid #bc2c2c;
+            border-left: 1px solid #bc2c2c;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+            box-shadow: inset 0 1px 10px 1px #bc2c2c, 0px 1px 0 #bc2c2c, 0 6px 0px #bc2c2c, 0 8px 4px 1px #111111;
+            color: #fff;
+            font: bold 25px/1 "helvetica neue", helvetica, arial, sans-serif;
+            margin-bottom: 10px;
+            padding: 10px 0 12px 0;
+            text-align: center;
+            text-shadow: 0px -1px 1px #bc2c2c;
+            -webkit-background-clip: padding-box; 
+            /* attempting to get buttons to resize accordingly with screen adjust */
+            width: 100%;
+            height: auto;
+
+        }
+  
+        input.punch2:hover {
+            -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+            box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+            cursor: pointer; 
+        }
+
+        input.punch2:active {
+            -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+            box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+            /*margin-top: 58px; */
+            position: static;
+            }
+        }
+
+        .colWeb{
+          margin-bottom: 15px;
+        }
+
+        .btn {
+          background: #e74c3c;
+          text-decoration: none;
+          margin-bottom: 30px;
+          text-align: center;
+          padding: 1em 0;
+          display: block;
+          color: #fff;
+          transition: background .3s;
+          
+          &:hover {
+            background: lighten(#e74c3c, 10%);
+          }
+          
+        }
+
+        input.punch2:hover{
+            color:#FF00FF;
+        }
+        img {
+            width: 100%;
+            height: auto;
+             min-height:auto;
+          /*max-width: 480px;*/
+            position: relative;
+
+        }
+        a#brains:hover{
+            color: indigo;
+        }
+        h3.listPage{
+            font-family: "Codystar";
+            font-size: 200%;
+            color: purple;
+            text-align: center;
+            /*background-image: url(); */
+        }
+        #SocialLinks { padding: 10px 0 0 0; }
+        #SocialLinks:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+        #SocialLinks a { display: block; float: left; padding-right: 15px; }
+
+        .gallery { list-style: none; padding: 0; margin: 0; }
+        .gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+        .gallery li { float: left; width: 33.33333333%; }
+        .gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+        .gallery li img { display: block; width: 100%; height: auto; }
+
+
+        /* For inline examples only */
+        #PhotoSwipeTarget { width: 100%; height: 200px; }
+
+        #Indicators { text-align: center; margin-top: 20px; }
+        #Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
+        #Indicators span.current{ background: #EEBF02; }
+
+        p {text-indent: 50px; color: #47081E;}  
+
+        .special {
+            font-family: 'Gurmukhi MN';
+            font-size: 14px;
+            color: #000;
+            background: #F5FBEF;
+            border: 1px solid #E3F6CE;
+            padding: 10px;
+            margin: 10px auto;
+            margin-top: 50px;
+        }
+
+        h4{
+            font-family: "Megrim";
+            font-size:26px;
+
+        }
+
+        h5{
+            font-family: "Megrim";
+            font-size: 16px;
+            margin-top: -15px;
+        }
+
+        img.pride{
+            height: 340px;
+            width: auto;
+        }
+
+        p.pride{
+            float:right;
+            width: 130px;
+            height:auto;
+            margin-top:5px;
+            margin-right:-10px;
+            font-size: 16px;
+
+        }
+
+        p{
+            font-size: 16px;
+        }
+            
+        h2.special {
+            display: inline;
+            position: relative;
+            font: 5em Helvetica, Sans-Serif;
+            letter-spacing: -5px;
+            color: #eb2755;
+            background: transparent;
+            border: none;
+        }
+
+        h2.special:after {
+            content: "Phönix";
+            position: absolute; left: 10px; top: 5px; right: 10px;
+            color: #E1DFD3;
+        }
+
+
+        h2.special {
+            clear:both;
+        }
+
+
+        /* app store effect */
+        .appStore {
+          margin: 0 auto;
+          padding: 5px;
+
+        }
+
+        .appStore > div {
+          position: relative;
+          float: left;
+          padding: 5px;
+        }
+
+        .appStore > div > a > img {
+          transition: .1s transform;
+          transform: translateZ(0); /* hack */
+        }
+
+        .appStore > div:hover {
+          z-index: 1;
+        }
+
+        .appStore > div:hover > a > img {
+          transform: scale(1.5,1.5);
+          transition: .3s transform;
+        }
+
+        .cf:before, .cf:after {
+            display: table;
+            content: "";
+            line-height: 0;
+        }
+
+        .cf:after {
+            clear: both;
+        }
+
+    </style>
+    <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'>
+    <!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+
+    <script src="js/libs/modernizr.custom.min.js"></script>
+    <script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      (function(){
+        var widgetIframe = document.getElementById('sc-widget'),
+            widget       = SC.Widget(widgetIframe);
+
+        widget.bind(SC.Widget.Events.READY, function() {
+          widget.bind(SC.Widget.Events.PLAY, function() {
+            // get information about currently playing sound
+            widget.getCurrentSound(function(currentSound) { 
+              console.log('sound ' + currentSound.get('') + 'began to play');
+            });
+          });
+          // get current level of volume
+          widget.getVolume(function(volume) {
+            console.log('current volume value is ' + volume);
+          });
+          // set new volume level
+          widget.setVolume(50);
+          // get the value of the current position
+        });
+
+      }());
+    </script>
+    <script src="js/libs/klass.min.js"></script>
+    <script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
+        <script type="text/javascript">
+
+        (function(window, PhotoSwipe){
+        
+            document.addEventListener('DOMContentLoaded', function(){
+            
+                var
+                    options = {
+                    
+                        getToolbar: function(){
+                            return '<div class="ps-toolbar-close" style="padding-top: 12px;">Close</div><div class="ps-toolbar-play" style="padding-top: 12px;">Play</div><div class="ps-toolbar-previous" style="padding-top: 12px;">Previous</div><div class="ps-toolbar-next" style="padding-top: 12px;">Next</div>';
+                            // NB. Calling PhotoSwipe.Toolbar.getToolbar() wil return the default toolbar HTML
+                        }
+                    
+                    },
+                    gallery1Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery1 a'), options );
+                    gallery2Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery2 a'), options );
+                    gallery3Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery3 a'), options );
+                    gallery4Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery4 a'), options );
+                    gallery5Instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery5 a'), options );
+                    
+            
+            }, false);
+            
+            
+        }(window, window.Code.PhotoSwipe));
+        
+    </script>   
+</head>
+
+<body>
+    <!-- For FB Newsfeed -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=492306967513697";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!--Home Page -->
+
+    <div data-role="page" id="home">
+        <div data-position="fixed" data-role="header" data-theme="b">
+            <h1>Phönix</h1>
+        </div>
+
+        <div data-role="content">
+	        <article>
+            
+            <img src="http://dl.dropboxusercontent.com/u/92701281/yes.jpg"/>
+            <br>
+            <br>
+		    <center><h2 class="special">Phönix</h2></center>
+            <br>
+		      <hr></hr>
+	    	</article>
+	        
+            <p>Join the Mailing List?</p>
+
+            <p><a data-icon="arrow-r" data-iconpos="right" data-role="button"
+            data-theme="a" href="#signup">Sign Up</a></p>
+
+            <p>Ph&ouml;nix designs and develops for the following platforms. Click below to learn more about these platforms:</p><br>
+
+
+            <!-- Change Below to Collapsible ULs/Lis like in desktop version -->
+            <div data-collapsed="true" data-role="collapsible">
+                <h3>Android</h3>
+
+                <ul data-filter="true" data-inset="true" data-role="listview">
+                    <li data-role="list-divider"></li>
+
+                    <li>
+                       <a href="http://www.android.com" target="_blank"><img src="img/Android.png">Discover Android OS</a>
+                        
+                    </li>
+                    <li data-role="list-divider"></li>
+                    <li>
+                        Click below to learn why we develop &amp; design for this OS:
+                    </li>
+                    <li>
+                        <a data-icon="grid" data-iconpos="right" data-role="button"
+                    href="#android">Android</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div data-collapsed="true" data-role="collapsible">
+                <h3>iOS</h3>
+
+                <ul data-filter="true" data-inset="true" data-role="listview">
+                    <li data-role="list-divider"></li>
+
+                    <li>
+                        <a href="http://www.apple.com/ios/ios7/" target="_blank"><img src="img/Apple.jpg">Discover iOS</a>
+                    </li>
+
+                    <li data-role="list-divider"></li>
+
+                    <li>
+                        Click below to learn why we develop &amp; design for this OS:
+                    </li>
+                    <li>
+                        <a data-icon="grid" data-iconpos="right" data-role="button"
+                    href="#ios">iOS</a>
+                </li>
+
+                </ul>
+            </div>
+
+            <div data-collapsed="true" data-role="collapsible">
+                <h3>Mobile Web</h3>
+
+                <ul data-filter="true" data-inset="true" data-role="listview">
+                    <li data-role="list-divider"></li>
+
+                    <li>
+                        <a href="http://articles.washingtonpost.com/2013-02-06/business/36937190_1_mobile-internet-mobile-devices-data-traffic" target="_blank"><img src="img/FireFox.png">Discover Mobile Web</a>
+                    </li>
+
+                    <li data-role="list-divider"></li>
+
+                    <li>
+                        Click below to learn why we develop &amp; design for Mobile Web:
+                    </li>
+                    <li>
+                        <a data-icon="grid" data-iconpos="right" data-role="button"
+                    href="#web">Mobile Web</a>
+                     </li>
+                </ul>
+            </div><br>
+            
+
+
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a class="ui-btn-active ui-state-persist" data-icon=
+                        "home" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="info" href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="star" href="#display">Samples</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="forward" href="#rss">Newsfeed</a>
+                    </li>
+                </ul>
+            </div><!-- /navbar -->
+        </div><!-- /footer -->
+        <!-- <a href="#display" id="mailingList">Open Errors</a> -->
+    </div><!-- Sign Up Page -->
+
+    <div data-add-back-btn="true" data-role="page" id="signup">
+        <div data-position="fixed" data-role="header" data-theme="b">
+        	<h1>Phönix</h1>
+        </div>
+
+        <div data-role="content">
+            <form action="" id="signupform" name="signupform">
+            	<h1 class="mail">Join the Mailing List!</h1>
+                <h3 class="listPage">Your Information</h3>
+                <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=zandernorell@gmail.com&su=&body=" target="_blank"><p class="buy" style="color:indigo; text-decoration:bold;">Have Gmail? Send an Email!</a></p>
+                <p>Contact our Director of Management:</p>
+                <p>(+1) 651-347-9627.</p>
+                <p>Sign up for our newsletter by submitting through the form below.</p>
+
+                <center><iframe src="https://docs.google.com/forms/d/12mgEKtP4IOuLuVdnAEL9zbcSOHNzPt6A5fZ_IQp0AB4/viewform?embedded=true" width="350" height="825" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></center>
+
+
+
+            </form>
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a data-icon="home" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="info" href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="star" href="#display">Samples</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="forward" href="#rss">Newsfeed</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!-- Error Dialog -->
+
+    <div data-role="dialog" id="signuperrors">
+        <div data-position="fixed" data-role="header" data-theme="b">
+           <h1>Phönix</h1>
+        </div>
+        <div data-role="content">
+        	<h1 class="mail">Missing Fields</h1>
+            <ul>
+                <li>Test.</li>
+
+                <li></li>
+
+                <li></li>
+            </ul>
+        </div>
+    </div><!-- Success Dialog -->
+
+    <div data-role="dialog" id="signupsuccess">
+        <div data-position="fixed" data-role="header" data-theme="b">
+           <h1>Phönix</h1>
+        </div>
+
+        <div data-role="content">
+        	<h1 class="mail">Thank You!</h1>
+            <ul>
+                <li>You have successfully joined Ph&ouml;nix LLC's Mailing List!</li>
+            </ul>
+        </div>
+    </div><!-- Display Mailing List -->
+
+    <div data-add-back-btn="true" data-role="page" id="display">
+        <div data-position="fixed" data-role="header" data-theme="b">
+            <h1>Phönix</h1>
+        </div>
+
+        <div data-role="content">
+        	<h1 class="mail">Samples</h1>
+            <div class="special">
+            	<!-- Gallery to go here -->
+                <p class="big">Download our latest App - The Band Famous - built in native iOS, along with media, games, and so much more. Get it now! Android version coming soon.</p>
+                <section>
+                  <div class="appStore cf">
+                    <div>
+                      <a href="http://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank"><img src="img/famousAppStore.png" style="width: 70%; height: auto; margin-bottom:10px; margin-left:15%;" alt="Download The Band Famous on the App Store today!"/></a>
+                    </div>         
+                  </div>
+                </section>
+                <h3 style="font-family: 'Julius Sans One'; font-size: 20px;">Sample Video Demonstrations</h3>
+                <iframe width="330" height="220" src="http://www.youtube.com/embed/OPp5yO8Ai3w" frameborder="0" allowfullscreen></iframe>
+                <iframe width="330" height="220" src="http://www.youtube.com/embed/L8kQzx1biaY?list=PLd4jn8eJXObldzGY-RVovZ7OywG9oGBxs" frameborder="0" allowfullscreen></iframe>
+
+                <h3 style="font-family: 'Julius Sans One'; font-size: 20px;"> Tour Manager App - iOS</h3>
+                <ul id="Gallery1" class="gallery">
+                        <!-- Tour Manager Demo -->
+                    <li><a href="images/full/one.jpg"><img src="images/thumbs/1.png" alt="" /></a></li>
+                    <li><a href="images/full/three.jpg"><img src="images/thumbs/3.png" alt="" /></a></li>
+                    <li><a href="images/full/four.jpg"><img src="images/thumbs/4.png" alt="" /></a></li>
+                    <li><a href="images/full/five.jpg"><img src="images/thumbs/5.png" alt="" /></a></li>
+                    <li><a href="images/full/six.jpg"><img src="images/thumbs/6.png" alt="" /></a></li>
+                    <li><a href="images/full/eight.jpg"><img src="images/thumbs/8.png" alt="" /></a></li>
+                    <li><a href="images/full/nine.jpg"><img src="images/thumbs/9.png" alt="" /></a></li>
+                    <li><a href="images/full/end.jpg"><img src="images/thumbs/end.png" alt="" /></a></li>
+                </ul>
+                <h3 style="font-family: 'Julius Sans One'; font-size: 20px;"> Norell App - iOS</h3>
+                        <!-- Norell Demo App -->
+                <ul id="Gallery2" class="gallery">
+                    <li><a href="images/full/launch.jpg"><img src="images/thumbs/launch.jpg" alt="" /></a></li>
+                    <li><a href="images/full/003.jpg"><img src="images/thumbs/003.jpg" alt="" /></a></li>
+                    <li><a href="images/full/1.jpg"><img src="images/thumbs/1.jpg" alt="" /></a></li>
+                    <li><a href="images/full/6.jpg"><img src="images/thumbs/6.jpg" alt="" /></a></li>
+                    <li><a href="images/full/7.jpg"><img src="images/thumbs/7.jpg" alt="" /></a></li>
+                </ul>
+                <h3 style="font-family: 'Julius Sans One'; font-size: 20px;"> Event Planner App - iOS </h3>
+
+                        <!-- Event Planner - iOS -->
+                <ul id="Gallery3" class="gallery">
+                    <li><a href="images/full/001.jpg"><img src="images/thumbs/001.jpg" alt="" /></a></li>
+                </ul>
+
+                        <!-- Mobile Web App -->
+                <h3 style="font-family: 'Julius Sans One'; font-size: 20px;"> SOS Band App - Mobile Web </h3>
+                <ul id="Gallery4" class="gallery">
+                    <li><a href="images/full/005.jpg"><img src="images/thumbs/005.jpg" alt="" /></a></li>
+                    <li><a href="images/full/006.jpg"><img src="images/thumbs/006.jpg" alt="" /></a></li>
+                    <li><a href="images/full/007.jpg"><img src="images/thumbs/007.jpg" alt="" /></a></li>
+                    <li><a href="images/full/008.jpg"><img src="images/thumbs/008.jpg" alt="" /></a></li>
+                </ul>
+                        <!-- Desktop/Mobile Web -->
+                <h3 style="font-family: 'Julius Sans One'; font-size: 20px;"> Desktop/Mobile Web </h3>
+                <ul id="Gallery5" class="gallery">
+                    <li><a href="images/full/009.jpg"><img src="images/thumbs/009.jpg" alt="" /></a></li>
+                    <li><a href="images/full/010.jpg"><img src="images/thumbs/010.jpg" alt="" /></a></li>
+                    <li><a href="images/full/011.jpg"><img src="images/thumbs/011.jpg" alt="" /></a></li>
+                    <li><a href="images/full/012.jpg"><img src="images/thumbs/012.jpg" alt="" /></a></li>
+                </ul>
+
+
+               
+                <div id="SocialLinks">
+                    <a href="http://www.twitter.com/KarnakGallery"><img src="images/twittericon.png" width="32" height="32" alt="Twitter" /></a>
+                    <a href="http://www.facebook.com/PhonixLLC"><img src="images/facebookicon.png" width="32" height="32" alt="Facebook" /></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a data-icon="home" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="info" href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a class="ui-btn-active ui-state-persist" data-icon=
+                        "star" href="#display">Samples</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="forward" href="#rss">Newsfeed</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!-- Android -->
+
+    <div data-add-back-btn="true" data-role="page" id="android">
+        <div data-position="fixed" data-role="header" data-theme="b">
+            <h1>Phönix</h1>
+        </div>
+        <div data-role="content">
+            <h1 class="mail">Android</h1>
+            <div class="special">
+                    <section>
+                        <p>The Android Operating System, developed and distributed by Google Inc., is steadfast and growing in population. It is Linux-based, designed primarily for touch screen mobile devices such as smartphones, like the popular Galaxy Nexus line, and tablets, like the Nexus 7. </p>
+
+                        <p>Android is run on open source code, which grants users the ability to customize and install outside software onto their devices. </p>
+                        <p>As of October 2012, over 25 billion applications were downloaded from Google Play, Android's primary app store. This number continues to grow. Android's worldwide smartphone market share was 75% in the third quarter of 2012. As of May 2013, 900 million Android devices had been activated and 48 billion apps installed from the Google Play store.</p> 
+                    </section>
+            </div>
+            <img src="img/Android.png" alt="Android"/>
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a data-icon="home" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="info" href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="star" href="#display">Samples</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="forward" href="#rss">Newsfeed</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!-- iOS -->
+
+    <div data-add-back-btn="true" data-role="page" id="ios">
+        <div data-position="fixed" data-role="header" data-theme="b">
+           <h1>Phönix</h1>
+        </div>
+        ß
+        <div data-role="content">
+            <h1 class="mail">iOS</h1>
+            <div class="special">
+                    <section>
+                        <p>The iOS Operating System, derived from OS X and developed and distributed by Apple Inc., was originally unveiled in 2007 for the iPhone. Since then it has been expanding and extending to support other devices such as the iPod Touch and the iPad. iOS does not allow for installation of their products on non-iOS products.</p>
+
+                        <p>Applications for iOS devices have been downlowded more than 50 billion times! This number continues to grow. In June 2012, it accounted for 65% of mobile web data usage.</p>
+                        <p>As of the first quarter in 2013, the iOS iPad accounted for nearly 90% of all web access from a mobile device! This means that your business should have a slick interface when viewed on the iPad, whether it is viewed from a fully built application or even as a Mobile Web App.</p> 
+                    </section>
+            </div>
+            <img src="img/Apple.jpg" alt="Apple"/>
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a data-icon="home" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="info" href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="star" href="#display">Samples</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="forward" href="#rss">Newsfeed</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Web -->
+
+    <div data-add-back-btn="true" data-role="page" id="web">
+        <div data-position="fixed" data-role="header" data-theme="b">
+        	<h1>Phönix</h1>
+        </div>
+
+        <div data-role="content">
+            <h1 class="mail">Mobile Web</h1>
+            <div class="special">
+                    <section>
+                        <p>Today, more than ever, millions of people are accessing the web in the palm of their hands. Did you know there are more mobile devices than there are people to use them? These two known statistics alone are validation as to why your business should be Mobile Web ready.</p>
+
+                        <p>This means, the features of your website should function flawlessly when viewed on all mobile devices, or at the very least iOS and Android devices.</p>
+                        <p>With iPads accounting for nearly 90% of all web browsing activity in the first quarter of 2013, what are you waiting for? Inquire with us today for your custom quote and we will get to work on a slick mobile web interface for you and your business!</p> 
+                    </section>
+            </div>
+            <img src="img/mobileweb.png" alt="Mobile Web" style="margin-top:50px;"/>
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a data-icon="home" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="info" href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="star" href="#display">Samples</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="forward" href="#rss">Newsfeed</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Page -->
+
+    <div data-add-back-btn="true" data-role="page" id="about">
+        <div data-position="fixed" data-role="header" data-theme="b">
+        	<h1>Phönix</h1>
+        </div>
+
+        <div data-role="content">
+        	<h1 class="mail">About </h1>
+
+        	<div class="special">
+	        		    <!--Company Information below -->
+			    <section>
+			    	<p>Phönix LLC is centered on helping get your website ready to be viewed on the 5-billion mobile devices around the world.</p> 
+			    	<a href="http://www.smartinsights.com/mobile-marketing/mobile-marketing-analytics/mobile-marketing-statistics/" target="_blank"><img src="img/fact.png" style="width:50%; height:auto;"/></a>
+			    </section>
+			</div>
+	          
+		            <!-- Staff Information below -->
+                <div class="colWeb">
+                    <a href="#" id="brains" class="btn" data-animate="flap-up">Why Hire Us?</a>
+                    <div id="hidden_content5">
+                        <!-- Staff Information below -->
+                        <p>In order to effectively market one's idea, product, or business, one must take into consideration the magnitude in which mobile devices are now expanding. One must also realize the multitude of people who regularly download applications from the Google Play Store and App Store, not to mention internet browsing in general via their smartphones and tablets.</p><p>Phönix has the creativity and the brains to bring your vision to life with a mobile-optimized platform tailored to your needs.</p>
+                        <div class="column-w">
+                        <h3 style="font-family: 'Julius Sans One'; font-size: 20px;">Meet Our Team:</h3>
+                        <!-- Zander -->
+                        <div class="column main">
+                            <span><img src="img/zander-1.jpg" class="teamImg"/></span>
+                            <article>Zander Figueroa, C.E.O., attended Full Sail University for Mobile Development. A multi-media artist first and foremost, Zander specializes in design in all mediums which translates to exceptional User Interface Design. He is fluent in Spanish. Based in New York, NY.</article>
+                            <form method="link" action="http://www.linkedin.com/in/zandermpls" target="_blank">
+                              <input type="submit" value="Resume" class="punch2">
+                            </form>
+                            <!-- About Zander is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="zander" class="btn" data-animate="flap-up">About Zander</a>
+                                <div id="hidden_content6">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                                           <p>Born Jacob Alexander Figueroa, he is a technology enthusiast, front &amp; back end developer, and a multimedia artist with artworks featured in NY Arts Magazine, and he is also a renowned body painter.</p>
+                                           <p>Zander’s body painting was featured at NY Fashion Week 2011, Summer Set Music and Camping Festival 2012, to high caliber shows such as Benny Benassi and Paul Van Dyk, to Black Kat Shows (Portland/Minneapolis), and most recently, MN Gay Pride 2013 and 2014.</p>
+                                            <p>Published locally and internationally, Zander is a featured artist in "All Over the Walls", a Blue Bridge Media Group Documentary that premiered at the Minneapolis St Paul International Film Festival in 2011, as well as taking “Best Documentary Film” at the Highway 61 Festival that year, and also featured at the MCAD Underground Film Festival.</p>
+                                            <p>Zander’s artworks have been presented alongside Celebrity Designer Emre Erturk and fine artists Gigi Turker, and Gulay Alpay. Jacob Alexander is also proficient in violin, fluent in Spanish and an avid painter, and photographer. He helped develop Audrey Kitching's Crystal Cactus Product Web Page. He is also a contributing member in The Band <a href="http://www.bandfamous.com" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>Famous</a>, adding violin to synthesizers to their Alternative and soul EDM sound, and unveiled a new body art installment for their debut performance, body painting at the Love Monster Famous App Release Party on Friday the 13th, in June of 2014.</p>
+                                            <p>He is a front and back-end developer, with knowledge acquired through Full Sail University in Mobile Development. You can download his first live app, <a href="https://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>The Band Famous</a>, free on the iPhone App Store!</p>
+                                        </article>
+                                        <!-- Implement body paint slider -->
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <!-- Norell -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="img/norell2.jpg" class="teamImg"/></span>
+                            <article>Norell Figueroa has a Bachelor of Arts in Communications, graduating with honors at the University of Minnesota. She is self taught in coding and development. As a skilled writer she has excellent attention to detail, ensuring clean and efficient coding. She is fluent in German. Based in New York, NY.</article>
+                            <form method="link" action="http://www.linkedin.com/in/marynorell" target="_blank">
+                              <input type="submit" value="Resume" class="punch2">
+                            </form>
+                            <!-- About Norell is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="norell" class="btn" data-animate="flap-up">About Norell</a>
+                                <div id="hidden_content7">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Born Mary Norell Jackson, and known also as simply Norell. A multi-faceted artist, singer, writer, programmer, and communications enthusiast. </p> 
+                                            <p>She studied Liberal Arts at Northland College for two years before transfering in 2009 and graduating with honors in 2011 from the University of Minnesota College of Liberal Arts, earning her Bachelor of Arts in Communications. She tied for first place for best vocal performance at the CLA Talent Show in 2010.</p> 
+                                            <p>She has sang with Terrell "Carnage" Woods from Rhymesayers entertainment, alongside Elliott Roche. She also sang in Emily Colay's (Wookiefoot) choir, Cantera in 2011/2012. She has done backup vocals for the Artist Brant Kingman's daughter; recorded vocals for MPLS.TV "Uptown Episode"; performed with Elliott Roche (The Cheap Thrills) at various Twin Cities venues; as well as performing solo at the Lounge Nightclub in Minneapolis at X Fashion on September 30th, 2011.</p>
+                                            <p> She has worked alongside the artist Zander on his body paint tours including Summer Set Music and Camping Festival, and Sexapalooza in Minneapolis and Portland in 2012, Benny Benassi in 2013, followed by Gay Pride in Minneapolis at the Gay 90's in 2013 and 2014.</p>
+                                            <p>She also conducted interviews, and put together several blogs for XTV (founded by Zander) with highlights including interviewing MN Senator Amy Klobuchar, Bill Moyers, and Minneapolis City Council member, Jacob Frey.</p>
+                                            <p>She has been body painted live in the streets and is currently working on an autobiography, as well as an online gallery featuring her modeling ventures.</p>
+                                            <p>Most recently, she took the stage on Friday the 13th, of June 2014, for the Love Monster Famous App Release Party. It was her band's debut live performance, and marked the release of their first album, "Last Words" - a smart album - with videos, games, and much more, all available in the native iOS app she helped build with her band, <a href="famous/index.html" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>Famous</a>. She codes and programs regularly, and is producing new music with her band for upcoming albums that will become available in the app.
+                                            <br>Download their app - <a href="https://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>The Band Famous</a> - for free on the iPhone App Store!</p>
+                                    
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <!-- Terrance Schubring -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="images/Terry.jpg" class="teamImg"/></span>
+                            <article>Terry aka Jambots has been in the web dev game for a long time. He’s no stranger to the app market, either, with over six apps on the market ranging from games to music and utility. Based in Saint Paul, MN.</article>
+                            <form method="link" action="http://www.jambots.com" target="_blank">
+                              <input type="submit" value="Resume" class="punch2">
+                            </form>
+                            <!-- About Terry is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="terry" class="btn" data-animate="flap-up">About Terry</a>
+                                <div id="hidden_content8">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Terrance has an extensive music background, and has released music under Princess Wishingstar, and his Ambien project. He also is a podcast enthusiast on several topics, and runs his own, Progwonk.</p> 
+                                            <p>He is a regular contributing member in The Band Famous with keyboards, synthesizers, engineering and development.</p>
+                                            <p>Terrance Clifford performed with TBF on Friday the 13th, of June 2014, for the Love Monster Famous App Release Party. It was TBF's debut live performance, and marked the release of their first album, "Last Words" - within their smart album app - with videos, games, and much more.</p>
+                                            <p>Terry contributed one of several games to come within the app. 
+                                            <br>Download their app - <a href="https://itunes.apple.com/us/app/the-band-famous/id879979539?mt=8" target="_blank" style="color: pink; font-size: 26px; line-height: 28px;"/>The Band Famous</a> - for free on the iPhone App Store!</p>
+                                    
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <!-- Nicole Leer -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="images/Daisy.jpg" class="teamImg"/></span>
+                            <article>Nicole is one of our graphic designers and artists. Based in Minneapolis, MN.</article>
+                            <form method="link" action="http://vixenviolet.deviantart.com" target="_blank">
+                              <input type="submit" value="Resume" class="punch2">
+                            </form>
+                            <!-- About Nicole is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="nicole" class="btn" data-animate="flap-up">About Nicole</a>
+                                <div id="hidden_content9">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Nicole has a Bachelor of Fine Art degree, along with a Bachelor of Criminal Justice.</p> 
+                                    
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                        <!-- Jessica Collette -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="img/jessica.jpg" class="teamImg"/></span>
+                            <article>Jessica Collette is one of our graphic designers and photographers. Based in Los Angeles, CA.</article>
+                            <form method="link" action="http://jessicacollette.com" target="_blank">
+                              <input type="submit" value="Resume" class="punch2">
+                            </form>
+                            <!-- About Jessica is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="jess" class="btn" data-animate="flap-up">About Jessica</a>
+                                <div id="hidden_content10">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Jessica is a multimedia artist living in Los Angeles who specializes in portrait photography.</p>
+                                            <p>She also paints, draws and does graphic design. She also models, does make up, and creates and designs raw vegan drinks and food.</p> 
+                                    
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                        <!-- Angelica Prendez -->
+                        <div class="column-w">
+                          <div class="column sub">
+                            <span><img src="img/Angelica.jpg" class="teamImg"/></span>
+                            <article>Angelica Prendez is the Director of Management for all clientele and staffing. Based in NY/NJ.</article>
+                            <!-- About Nicole is clicked -->
+                            <div class="colWeb">
+                                <a href="#" id="angel" class="btn" data-animate="flap-up">About Angelica</a>
+                                <div id="hidden_content11">
+                                    <!-- Staff Information below -->
+                                    <div class="column-w">
+                                      <div class="column main">
+                                        <article>
+                
+                                            <p>Angelica handles all HR &amp; PR inquiries, references, press releasees, booking inquiries, studio &amp; venue management, and more.</p>
+                                            <p>Contact her with your questions for the quickest response.</p> 
+                                            <h3 style="font-family: 'Julius Sans One'; font-size: 20px;">Contact: (+1) 651-347-9627</h3>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+        </div>
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a data-icon="home" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="ui-btn-active ui-state-persist" data-icon=
+                        "info" href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="star" href="#display">Samples</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="forward" href="#rss">Newsfeed</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!-- RSS -->
+
+    <div data-add-back-btn="true" data-role="page" id="rss">
+        <div data-position="fixed" data-role="header" data-theme="b">
+            <h1>Phönix</h1>
+         </div>
+
+        <div data-role="content">
+             <h1 class="mail">Newsfeed</h1>
+            <div class="special">
+                <!-- Twitter Newsfeed -->
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/KarnakGallery" data-widget-id="416396757879107586">Tweets by @KarnakGallery</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                  <!-- FB Newsfeed -->
+                <div class="fb-like-box" data-href="http://www.facebook.com/PhonixLLC" data-width="310px" data-height="300px" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true"></div>
+                <p>Check out Norell, Zander &amp; Terrance in their ongoing project, The Band Famous:</p>
+                <a href="http://bandfamous.com/mobile" target="_blank"><img src="famous/img/famous.png" alt="The Band Famous"/></a>
+
+                <article><img src="img/gay90s.jpg" class="pride"/><p class="pride">Recently, you may have seen Norell &amp; Zander, or the brains behind Ph&ouml;nix LLC, decorating and embellishing many live canvases at MN Pride at the Gay 90s.</p><p>They were joined with MUA &amp; Photographer, not to mention model herself, Jessica Collette.</p> <a href="jcartist.html"><img src="img/jcbus.jpg"/></a>
+                <p>The three of them painted the town, in the  name of love, and pride in love.</p></article>
+                <article><p>Prior to Pride, Zander was hired by SIMShows, or Sound In Motion, to provide live, stellar body painting entertainment in downtown Minneapolis at Epic Nightclub for: <h4>Benny Benassi</h4><img src="img/benassi.jpg"/></p></article>
+                <article><h4>Tron in 3D</h4><h5>Live at Benny Benassi</h5> <img src="http://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn2/980805_567540636600999_1601684874_o.jpg"/></article>
+
+            </div>
+
+
+        <div data-id="home" data-position="fixed" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a data-icon="home" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="info" href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a data-icon="star" href="#display">Samples</a>
+                    </li>
+
+                    <li>
+                        <a class="ui-btn-active ui-state-persist" data-icon=
+                        "forward" href="#rss">Newsfeed</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/twitter.js" type="text/javascript"></script>
+    </div>
+
+    <!-- JavaScript under here -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+    <script src=
+"http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script> 
+    <script src="js/libs/jquery.validate.min.js" type="text/javascript"></script> 
+    <script src="js/json.js" type="text/javascript"></script> 
+    <script src="js/mainjs.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/port.js"></script>
+</body>
+</html>

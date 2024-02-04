@@ -1,0 +1,141 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding-top: 25px;
+  background: #E1DFD3; 
+  color: #5E3333;
+  font: 1.3em/1.6 sans-serif;
+}
+.wrap {
+  margin: auto;
+  width: 90%;
+}
+.main-header {
+  background:#5E3333;
+  text-align: center;
+}
+.logo, 
+.main-nav a {
+  display: inline-block;
+  color: #5E3333;
+  text-decoration: none;
+}
+.main-nav a {
+  padding: 0 .75em;
+  border-right: 1px dotted;
+  color: rgba(255,255,255, .8);
+  font-size: .7em;
+  line-height: 1rem;
+}
+.main-nav a:hover {
+  color:#eb2755;
+}
+.main-nav a:last-child {
+  border-right: none;
+}
+.content, 
+.main-header {
+  overflow: hidden;
+}
+.col {
+  height: 320px;
+}
+.main {
+  background:  #eb2755;
+}
+.secondary {
+  background:
+}
+.extra {
+  display: none;
+  background: #eb2755;
+}
+.main-footer {
+  background: #5E3333;
+}
+.main-header, 
+.main-footer, 
+.col {
+  margin-bottom: 15px;
+  padding: 2.15%;
+  border-radius: 5px;
+}
+
+h2{
+  font-family: "Megrim";
+  font-size: 30px;
+
+}
+
+h3{
+  font-family: "Megrim";
+  font-size: 30px;
+
+}
+
+h4{
+  font-family: "Julius Sans One";
+  font-size: 24px;
+}
+
+ul{
+  list-style: none;
+  margin: -20px auto;
+}
+
+li{
+  display:inline-block;
+}
+
+/*==================================
+   Media Queries
+==================================*/
+
+
+/* Phones to Tablets */
+
+@media only screen and (min-width: 481px) {
+  .col {
+    float: left;
+  }
+  .main {
+    width: 65.957446808511%;
+  }
+  .secondary {
+    width: 57.4893617021%; 
+  }
+  .secondary {
+    margin-left: 2.127659574468%;
+  }
+}
+
+/* Tablets to Desktop */
+
+@media only screen and (min-width: 769px) { 
+  .logo {
+    float: left;
+  }
+  .main-nav {
+    float: right;
+  }
+  .main {
+    width: 40.425531914894%;
+  }
+  .extra {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {  
+  .wrap {
+    width: 980px;
+  }
+}
+
+/* @media not screen and (monochrome) {
+  body {
+      background: red; */

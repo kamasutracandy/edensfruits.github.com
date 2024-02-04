@@ -1,0 +1,233 @@
+html {
+  min-height: 100%;
+  background: white;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  min-width: 220px;
+  width: 100;
+
+}
+
+body {
+  background: white;
+
+}
+
+/* Responsive Nav Bar */
+
+ul.topnav {
+
+  height: 40px;
+  line-height: 40px;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  background-size: 100%;
+  height:auto;
+  width: 100%;
+
+
+}
+
+
+/* Float list items side by side */
+ul.topnav li {
+  float: left;}
+
+/* Style links inside list items */
+ul.topnav li a {
+
+  font-family: 'Michroma', sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: #0199c7;
+  border-top: 1px 1px #0199c7;
+  background: white;
+  text-shadow: #eb2755;
+}
+
+ul.topnav li a:hover {
+  background: #0199c7;
+  box-shadow: #0199c7;
+  color:#0199c7;
+  text-decoration: underline;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+/* When screen is less than 680px wide, hide list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
+
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to topnav  with Javascript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+}
+
+ul.topnav li > a:link {color: #0199c7; -moz-text-decoration-style: solid; padding: 3px 7px;}   /* unvisited link */
+
+ul.topnav li > a:visited {color:#0199c7;}  /* visited link */
+
+ul.topnav li > a:hover {
+  background: #0199c7;
+  border-top: 1px solid #0199c7;
+  border-right: 1px solid #0199c7;
+  border-bottom: 1px solid #0199c7;
+  border-left: 1px solid #0199c7;
+  border-radius: 11px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px indigo, 0px 1px 0 indigo, 0 6px 0px indigo, 0 8px 4px 1px #111111;
+  color: #fff;
+  text-shadow: 0px -1px 1px #E1DFD3;
+  -webkit-background-clip: padding-box; 
+ }
+ 
+
+ /* mouse over link */
+ 
+ul.topnav li > a:active {color:indigo; -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    position: static;} */ /* selected link */
+
+
+ul.topnav li ul {
+
+  width: 200px;
+  background: #33cda7;
+  border-radius: 7px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 3px 15px rgba(0,0,0,.7);
+  list-style: none;
+}
+
+ul.display li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* end nav bar */
+
+/*
+ul li {
+  margin:11px;
+}
+*/
+
+article{
+  width:80%;
+  margin:0 auto;
+  padding:50px 50px;
+  background:snow;
+}
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  font-size:72px;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:4px;
+  word-spacing:10px;
+  margin-top:0;
+  margin-bottom:20px;
+}
+
+h1 span{
+  font-family: 'Playball', cursive;
+  font-size:60px;
+  text-transform:lowercase;
+  position:relative;
+  top:-15px 
+}
+.meta{
+  border-top:1px solid #333;
+  text-align:center;
+}
+
+.meta h2{
+  display:inline-block;
+  margin:0;
+  padding:0 20px;
+  background:white;
+  position:relative;
+  top:-12px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:18px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+
+header{
+  margin-bottom:25px;
+}
+section .columns{
+  -moz-column-count:3; /* Firefox */
+  -webkit-column-count:3; /* Safari and Chrome */
+  column-count:3;
+}
+.columns p{
+  font-size:18px;
+  margin:0 0 10px 0;
+  text-indent:10px;
+}
+
+strong{
+  margin:0;
+}
+
+blockquote{
+  -moz-column-span:all;
+  -webkit-column-span:all;
+  column-span:all;
+  font-family: 'Playball', cursive;
+  font-size:32px;
+  font-weight:normal;
+  border-top:3px solid #333;
+  border-bottom:3px solid #333;
+  padding:15px 0;
+  
+}
+
+@media screen and (max-width:680px) {
+
+  section .columns{
+    -moz-column-count:1; /* Firefox */
+    -webkit-column-count:1; /* Safari and Chrome */
+    column-count:1;
+  }
+
+  div.columns img {
+    width: 100%;
+  }
+}
+
+

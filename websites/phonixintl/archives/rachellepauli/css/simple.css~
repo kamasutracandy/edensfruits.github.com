@@ -1,0 +1,419 @@
+html {
+	background: black;
+	width: 100%;
+	min-width: 220px;
+}
+
+body {
+	background: white;
+	width: 100%;
+	min-width: 220px;
+}
+
+
+
+/* Responsive Nav Bar */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D5DEDE;
+    min-height: 65px;
+}
+
+/* Float the list items side by side */
+ul.topnav li {display: inline-block;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+/* When screen is less than 680px wide, hide list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
+
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to topnav  with Javascript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: center;
+  }
+
+}
+
+/* screen 320px or smaller */
+@media screen and (max-width:320px) {
+
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:320px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+ ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+}
+
+/* end phone screen size */
+
+ul.topnav li > a:link {color: black; -moz-text-decoration-style: solid; padding: 3px 7px;}   /* unvisited link */
+
+ul.topnav li > a:visited {color:#8e0505;}  /* visited link */
+
+ul.topnav li > a:hover {
+  background: #efc6e3;
+
+  border-radius: 11px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px red, 0px 1px 0 red, 0 6px 0px red, 0 8px 4px 1px #111111;
+  color: red;
+  text-shadow: 0px -1px 1px #E1DFD3;
+  -webkit-background-clip: padding-box; 
+ }
+ 
+
+ /* mouse over link */
+ 
+ul.topnav li > a:active {color:red; -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    position: static;} */ /* selected link */
+
+
+ul.topnav li ul {
+
+  width: 200px;
+  background: #33cda7;
+  border-radius: 7px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 3px 15px rgba(0,0,0,.7);
+  list-style: none;
+}
+
+ul.display li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* end navigation */
+
+section {
+	background: black;
+}
+
+section.three-column {
+	width: 100%;
+	height: auto;
+  background: black;
+}
+
+h1.slogan {
+	/* also try Allura */
+	font-family: 'Clicker Script', sans-serif;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-top: 10px;
+	/*text-shadow: 2px 2px #0199c7;*/
+	font-size: 3em;
+}
+
+h2.nav {
+	color: black;
+	/*text-shadow: 2px 2px #0199c7;*/
+	font-size: 25px;
+	font-family: 'Cinzel', sans-serif;
+}
+
+h2.nav:hover {
+  color:#8e0505;
+}
+
+
+h2.enter {
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  margin-bottom:50px;
+}
+
+h2.enter:hover{
+  color:red;
+  font-size: 35px;
+  font-style:bold;
+
+  margin-bottom: 55px;
+}
+
+a.enter {
+  text-decoration: none;
+  color:black;
+}
+
+a.enter:hover {
+  text-decoration: none;
+}
+
+p.fancy {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin:4px;
+}
+
+p.music {
+  font-size: 60px;
+  font-family: 'Ruthie', cursive;
+  font-style: bold;
+  color: #a20808;
+}
+
+p.music2 {
+  font-size: 45px;
+  font-family: 'Ruthie', cursive;
+  font-style: bold;
+  color: red;
+}
+
+p {
+	font-style: 25px;
+}
+
+p.signature {
+  font-size: 2.8em;
+  font-family: 'Sacramento', cursive;
+}
+
+a{
+	padding-bottom: 2px;
+}
+
+.three-column
+{
+  background:black;
+  margin-bottom: 20px;
+}
+
+div {
+  background: white;
+}
+
+ul.header {
+	text-decoration: none;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+ul.header li {
+	display: inline-block;
+}
+
+ul.social {
+	text-decoration: none;
+}
+
+ul.social li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ul.social img {
+	width: auto;
+	height: 22px;
+  margin-top: -4px;
+}
+
+ul.nav {
+	text-decoration: none;
+}
+
+ul.nav li {
+	display: inline-block;
+}
+
+/* SHOP ITEMS CSS */
+
+ul#shop li {
+  list-style: none;
+  display: inline;
+  margin:4px;
+}
+
+ul#shop li img {
+  box-shadow: 8px 8px 8px 8px red;
+  height: 300px;
+  width: auto;
+
+}
+
+/* End Shop  */
+
+nav {
+	background:#D5DEDE;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+img.bw {
+  width: 70%; 
+  height: auto;
+}
+
+h1.music, h1.shop, h1.contact {
+  /*font-family: 'Allura', cursive;*/
+  font-family: 'Cinzel', sans-serif;
+  font-size: 4em;
+  color: black;
+  margin-top: 20px;
+  padding:10px;
+  /*color: red;
+  text-shadow: 2px 2px gold;*/
+  background: white;
+}
+
+hr {
+  color: gray;
+  border-top: 50px solid gray;  
+}
+
+/* for music icons */
+
+ul.music {
+  text-decoration: none;
+}
+
+ul.music li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+ul.music img {
+  width: 145px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* end music icons */
+
+
+/* For Slider with Try Love and other music videos */
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+  min-width: 220px;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  min-width: 220px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+/* End slider */
+
+

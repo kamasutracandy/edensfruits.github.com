@@ -1,0 +1,626 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>KC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/themes/kc.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+		<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Love+Ya+Like+A+Sister|Vast+Shadow|Della+Respira|Marcellus|Galindo|The+Girl+Next+Door|Montserrat+Subrayada|Stalemate|Rock+Salt|Dawning+of+a+New+Day' rel='stylesheet' type='text/css'/>
+    <link href="css/photoswipe.css" rel="stylesheet"> 
+    <script type="text/javascript" src="js/klass.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="js/code.photoswipe-3.0.5.min.js"></script>
+    <script type="text/javascript">
+
+        (function(window, PhotoSwipe){
+        
+            document.addEventListener('DOMContentLoaded', function(){
+            
+                var
+                    options = {
+                    
+                        getToolbar: function(){
+                            return '<div class="ps-toolbar-close" style="padding-top: 12px;">Close</div><div class="ps-toolbar-play" style="padding-top: 12px;">Play</div><div class="ps-toolbar-previous" style="padding-top: 12px;">Previous</div><div class="ps-toolbar-next" style="padding-top: 12px;">Next</div>';
+                            // NB. Calling PhotoSwipe.Toolbar.getToolbar() wil return the default toolbar HTML
+                        }
+                    
+                    },
+                    instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
+                    
+            
+            }, false);
+            
+            
+        }(window, window.Code.PhotoSwipe));
+        
+    </script>
+    <script type="text/javascript">
+      $(document).on('pagebeforeshow', '#index', function(){   
+          var myPhotoSwipe = $(".gallery li a").photoSwipe({
+              jQueryMobile: true,
+              loop: false,
+              enableMouseWheel: false,
+              enableKeyboard: false
+          });
+
+          myPhotoSwipe.show(0);      
+      });
+    </script>
+
+	</head>
+	<body>
+       
+    <!--Home Page -->
+    <div data-role="page" id="home">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+      <div data-role="content">
+        <img src="img/kcandy.jpg" alt="Thank you for visiting Kamasutra Candy!" />
+        
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a class="ui-btn-active ui-state-persist" data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Kamasutra Galleries -->
+
+    <div data-add-back-btn="true" data-role="page" id="gallery">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Gallery</h1>
+        <ul data-filter="true" data-inset="true" data-role="listview">
+          <li data-role="list-divider"></li>
+            <li>
+              <a href="#one"><img src="http://i.imgur.com/2s4cv8A.jpg">Edible</a>
+            </li>
+            <li data-role="list-divider"></li>
+            <li>
+              <a href="#two"><img src="http://i.imgur.com/qwmesWv.jpg">Exotic Tastes</a>                    
+            </li>
+            <li data-role="list-divider"></li>
+            <li>
+              <a href="#three"><img src="http://i.imgur.com/9KjIbD7.jpg">Naked Terrain</a>     
+            </li>
+            <li data-role="list-divider"></li>
+            <li>
+              <a href="#four"><img src="http://i.imgur.com/UkngWTh.jpg">Ravish Me</a>                   
+            </li>
+            <li data-role="list-divider"></li>
+            <li>
+              <a href="#five"><img src="http://i.imgur.com/pWaXCmN.jpg">Wild Card</a>                   
+            </li>
+            <li data-role="list-divider"></li>
+            <li>
+              <a href="#six"><img src="http://i.imgur.com/vvwBHCX.jpg">Wet N Wild</a>     
+            </li>
+            <li data-role="list-divider"></li>
+            <li>
+              <a href="#seven"><img src="http://i.imgur.com/Vu3wwQw.jpg">Foreplay</a>                 
+            </li>
+            <li data-role="list-divider"></li>
+            <li>
+              <a href="#eight"><img src="http://i.imgur.com/xA5hwtc.jpg">Steamy</a>      
+            </li>
+            <li data-role="list-divider"></li>
+            <li>
+              <a href="#nine"><img src="http://i.imgur.com/DDoF4LY.jpg">Happy Kitty</a>    
+            </li>
+            <li data-role="list-divider"></li>                  
+          </ul>
+
+
+         
+      </div>    
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a class="ui-btn-active ui-state-persist" data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Contact Page -->
+
+    <div data-add-back-btn="true" data-role="page" id="contact">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Be Heard</h1>
+        <center>
+          <p style="text-align: left; margin-top:4px;">Have a comment on Kamasutra Candy?</p>
+          <p style="text-align: left; margin-top:4px;">Or maybe you are interested in having your erotic art displayed within our galleries?</p>
+          <p>Contact us below:</p>
+
+          <iframe src="https://docs.google.com/forms/d/1Nf-4XXphYVIUxPlrepAtQnV7jFxwS-2T6PtjxmOHzRk/viewform?embedded=true" width="320" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a class="ui-btn-active ui-state-persist" data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Individual Galleries Begin Here -->
+    <!-- One -->
+    <div data-add-back-btn="true" data-role="page" id="one">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Edible</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Edible Art Images - Album19 -->
+            <li><a href="http://i.imgur.com/2s4cv8A.jpg" ><img src="http://i.imgur.com/2s4cv8A.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/l5L2Kwl.jpg" ><img src="http://i.imgur.com/l5L2Kwl.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/ODX7Eba.jpg" ><img src="http://i.imgur.com/ODX7Eba.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/KanoBmz.jpg" ><img src="http://i.imgur.com/KanoBmz.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/8zAvYOZ.jpg" ><img src="http://i.imgur.com/8zAvYOZ.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/RQGJURK.jpg" ><img src="http://i.imgur.com/RQGJURK.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/bjxVvh4.jpg" ><img src="http://i.imgur.com/bjxVvh4.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/tR3QUWo.jpg" ><img src="http://i.imgur.com/tR3QUWo.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/LXR5zax.jpg" ><img src="http://i.imgur.com/LXR5zax.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/ISHwebS.jpg" ><img src="http://i.imgur.com/ISHwebS.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/agBpyOF.jpg" ><img src="http://i.imgur.com/agBpyOF.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/cLhOZBu.jpg" ><img src="http://i.imgur.com/cLhOZBu.jpg" /></a></li>     
+            <li><a href="http://i.imgur.com/nKn6JdG.jpg" ><img src="http://i.imgur.com/nKn6JdG.jpg" /></a></li>         
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Two -->
+    <div data-add-back-btn="true" data-role="page" id="two">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Exotic Tastes</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Exotic Tastes Images - Album9 -->
+            <li><a href="http://i.imgur.com/qwmesWv.jpg" ><img src="http://i.imgur.com/qwmesWv.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/mBVkFoE.jpg" ><img src="http://i.imgur.com/mBVkFoE.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/To0k2uK.jpg" ><img src="http://i.imgur.com/To0k2uK.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/Oo2XOFG.jpg" ><img src="http://i.imgur.com/Oo2XOFG.jpg" /></a></li>
+            
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Three -->
+    <div data-add-back-btn="true" data-role="page" id="three">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Naked Terrain</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Naked Terrain Images - Album13 -->
+            <li><a href="http://i.imgur.com/9KjIbD7.jpg" ><img src="http://i.imgur.com/9KjIbD7.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/H7VNHZb.jpg" ><img src="http://i.imgur.com/H7VNHZb.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/2nduxd2.jpg" ><img src="http://i.imgur.com/2nduxd2.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/eOEM7Fu.jpg" ><img src="http://i.imgur.com/eOEM7Fu.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/ZTP0LeH.jpg" ><img src="http://i.imgur.com/ZTP0LeH.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/dda15Ck.jpg" ><img src="http://i.imgur.com/dda15Ck.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/m78V6rv.jpg" ><img src="http://i.imgur.com/m78V6rv.jpg" /></a></li>        
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+    
+    <!-- Four -->
+    <div data-add-back-btn="true" data-role="page" id="four">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Ravish Me</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Ravish Me Images - Album14 -->
+            <li><a href="http://i.imgur.com/UkngWTh.jpg" ><img src="http://i.imgur.com/UkngWTh.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/mYhHQ1s.jpg" ><img src="http://i.imgur.com/mYhHQ1s.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/Y9oWpKV.jpg" ><img src="http://i.imgur.com/Y9oWpKV.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/RjEpFLQ.jpg" ><img src="http://i.imgur.com/RjEpFLQ.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/1YZRDAL.jpg" ><img src="http://i.imgur.com/1YZRDAL.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/Svo23QX.jpg" ><img src="http://i.imgur.com/Svo23QX.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/VgS2cVa.jpg" ><img src="http://i.imgur.com/VgS2cVa.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/jt7LT9M.jpg" ><img src="http://i.imgur.com/jt7LT9M.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/kIffEP8.jpg" ><img src="http://i.imgur.com/kIffEP8.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/JqvbFuM.jpg" ><img src="http://i.imgur.com/JqvbFuM.jpg" /></a></li>        
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Five -->
+    <div data-add-back-btn="true" data-role="page" id="five">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Wild Card</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Wild Card Images - Album11 -->
+            <li><a href="http://i.imgur.com/GcmjXC2.jpg" ><img src="http://i.imgur.com/GcmjXC2.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/rtZJzVM.jpg" ><img src="http://i.imgur.com/rtZJzVM.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/d4m2C9f.jpg" ><img src="http://i.imgur.com/d4m2C9f.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/ls9CvMt.jpg" ><img src="http://i.imgur.com/ls9CvMt.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/PH7Weo3.jpg" ><img src="http://i.imgur.com/PH7Weo3.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/pWaXCmN.jpg" ><img src="http://i.imgur.com/pWaXCmN.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/AcPfHAQ.jpg" ><img src="http://i.imgur.com/AcPfHAQ.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/KWhrsp3.jpg" ><img src="http://i.imgur.com/KWhrsp3.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/JXMlN86.jpg" ><img src="http://i.imgur.com/JXMlN86.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/OcWd4HS.jpg" ><img src="http://i.imgur.com/OcWd4HS.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/ale5dfK.jpg" ><img src="http://i.imgur.com/ale5dfK.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/mJbvBfV.jpg" ><img src="http://i.imgur.com/mJbvBfV.jpg" /></a></li>     
+            <li><a href="http://i.imgur.com/i5g0v3N.jpg" ><img src="http://i.imgur.com/i5g0v3N.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/zer8k6p.jpg" ><img src="http://i.imgur.com/zer8k6p.jpg" /></a></li>   
+            <li><a href="http://i.imgur.com/QRxVjq7.jpg" ><img src="http://i.imgur.com/QRxVjq7.jpg" /></a></li>   
+            <li><a href="http://i.imgur.com/09jfJED.jpg" ><img src="http://i.imgur.com/09jfJED.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/RZvyRPL.jpg" ><img src="http://i.imgur.com/RZvyRPL.jpg" /></a></li>           
+            <li><a href="http://i.imgur.com/Y2a1Sao.jpg" ><img src="http://i.imgur.com/Y2a1Sao.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/djPgELV.jpg" ><img src="http://i.imgur.com/djPgELV.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/E5fudLh.jpg" ><img src="http://i.imgur.com/E5fudLh.jpg" /></a></li> 
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Six -->
+    <div data-add-back-btn="true" data-role="page" id="six">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Wet N Wild</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Wet N Wild Images - Album18 -->
+            <li><a href="http://i.imgur.com/vEGm6eW.jpg" ><img src="http://i.imgur.com/vEGm6eW.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/hFjVKha.jpg" ><img src="http://i.imgur.com/hFjVKha.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/BptvUk7.jpg" ><img src="http://i.imgur.com/BptvUk7.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/I67maJW.jpg" ><img src="http://i.imgur.com/I67maJW.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/mKRHnTZ.jpg" ><img src="http://i.imgur.com/mKRHnTZ.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/IPCsnxa.jpg" ><img src="http://i.imgur.com/IPCsnxa.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/lC7Ect7.jpg" ><img src="http://i.imgur.com/lC7Ect7.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/2W1TVeg.jpg" ><img src="http://i.imgur.com/2W1TVeg.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/XYxO9Dy.jpg" ><img src="http://i.imgur.com/XYxO9Dy.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/vvwBHCX.jpg" ><img src="http://i.imgur.com/vvwBHCX.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/Da5ve9Z.jpg" ><img src="http://i.imgur.com/Da5ve9Z.jpg" /></a></li>      
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Seven -->
+    <div data-add-back-btn="true" data-role="page" id="seven">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Foreplay</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Foreplay - Album7 -->
+            <li><a href="http://i.imgur.com/Vu3wwQw.jpg" ><img src="http://i.imgur.com/Vu3wwQw.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/bGzo4qV.jpg" ><img src="http://i.imgur.com/bGzo4qV.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/3mC7dEK.jpg" ><img src="http://i.imgur.com/3mC7dEK.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/eN8QAyY.jpg" ><img src="http://i.imgur.com/eN8QAyY.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/UbzY2nL.jpg" ><img src="http://i.imgur.com/UbzY2nL.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/LOTMx4z.jpg" ><img src="http://i.imgur.com/LOTMx4z.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/OTvSRtb.jpg" ><img src="http://i.imgur.com/OTvSRtb.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/WgKmVIM.jpg" ><img src="http://i.imgur.com/WgKmVIM.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/H4XpcRu.jpg" ><img src="http://i.imgur.com/H4XpcRu.jpg" /></a></li>        
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Eight -->
+    <div data-add-back-btn="true" data-role="page" id="eight">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Steamy</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Steamy Images - Album1 -->
+            <li><a href="http://i.imgur.com/yphAlNb.jpg" ><img src="http://i.imgur.com/yphAlNb.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/rHu4ZhF.jpg" ><img src="http://i.imgur.com/rHu4ZhF.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/Ls7gHYF.jpg" ><img src="http://i.imgur.com/Ls7gHYF.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/xA5hwtc.jpg" ><img src="http://i.imgur.com/xA5hwtc.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/awZl4Ll.jpg" ><img src="http://i.imgur.com/awZl4Ll.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/B2WwQ21.jpg" ><img src="http://i.imgur.com/B2WwQ21.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/yvZO0Ub.jpg" ><img src="http://i.imgur.com/yvZO0Ub.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/diky5dT.jpg" ><img src="http://i.imgur.com/diky5dT.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/SQ6ZM2H.jpg" ><img src="http://i.imgur.com/SQ6ZM2H.jpg" /></a></li>       
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+    <!-- Nine -->
+    <div data-add-back-btn="true" data-role="page" id="nine">
+      <div data-position="fixed" data-role="header" data-theme="b">
+      </div>
+
+      <div data-role="content">
+        <h1 style="margin-top: -20px; margin-right:-40px;">Happy Kitty</h1>
+        <center>
+          <ul id="Gallery" class="gallery">
+            <!--  Happy Kitty Images - Album4 10 images -->
+            <li><a href="http://i.imgur.com/DDoF4LY.jpg" ><img src="http://i.imgur.com/DDoF4LY.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/F0u6X0U.jpg" ><img src="http://i.imgur.com/F0u6X0U.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/STfP8nK.jpg" ><img src="http://i.imgur.com/STfP8nK.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/4xASFJB.jpg" ><img src="http://i.imgur.com/4xASFJB.jpg" /></a></li>
+            <li><a href="http://i.imgur.com/9oCkvJC.jpg" ><img src="http://i.imgur.com/9oCkvJC.jpg" /></a></li> 
+            <li><a href="http://i.imgur.com/kUCyKLt.jpg" ><img src="http://i.imgur.com/kUCyKLt.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/xFP1y16.jpg" ><img src="http://i.imgur.com/xFP1y16.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/u6Ig6Av.jpg" ><img src="http://i.imgur.com/u6Ig6Av.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/9GpzlOu.jpg" ><img src="http://i.imgur.com/9GpzlOu.jpg" /></a></li>  
+            <li><a href="http://i.imgur.com/XYKHcQE.jpg" ><img src="http://i.imgur.com/XYKHcQE.jpg" /></a></li>      
+          </ul>
+        </center>      
+
+      </div>
+
+      <div data-id="home" data-position="fixed" data-role="footer">
+
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a data-icon="home" href="#home">Home</a>
+            </li>
+            <li>
+              <a data-icon="heart" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a data-icon="comment" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div><!-- /navbar -->
+
+      </div><!-- /footer -->
+
+    </div>
+
+
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+
+	</body>
+</html>

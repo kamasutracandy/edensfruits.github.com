@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Ph&ouml;nix Intl Creative Agency</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="Designed By" content="Zander &amp; Norell">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true"/>  
+  <meta name="MobileOptimized" content="320"/>  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="propeller" content="06416f427210ec9fe4428ea26d21c39f">
+  <meta name="keywords" content="twitch affiliates, affiliate, twitch affiliate, bandcamp, bandcamp Friday, The Band Famous, Patreon, Become a Patron, independent, animal rescue, rescue, sanctuary, animal sanctuary, support small, livestream, live-stream, live stream, streaming, streamers, gamers, musicians, husband and wife, animals, music, off grid, solar power">
+  <meta name="description" content="Meet Zander and Norell, husband and wife, gamers, musicians, Twitch Affiliates; they produce music off grid with solar power, and take care of many animals at their rescue sanctuary. Follow and subscribe on twitch.tv/bandfamous! Buy their music at bandfamous.bandcmap.com, or become a Patron for $1.00 a month to support their independent music and animal rescue sanctuary.">
+  
+  <!-- Include Bootstrap CSS and Javascript Files -->
+  <link rel="stylesheet" href="css/simple.css" type="text/css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt|Julius+Sans+One|Press+Start+2P' rel='stylesheet' type='text/css'>
+  <script src="js/modernizr.custom.phonix.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Actor&family=Birthstone+Bounce&family=Cherry+Cream+Soda&family=Inspiration&family=Karma&family=Lora&family=Luckiest+Guy&family=News+Cycle&family=Notable&family=Silkscreen&family=Splash&family=Vibur&family=Zeyada&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+<style type="text/css">
+
+      ul.topnav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-size: 100%;
+          background-repeat: repeat;
+          min-height:70px;
+          height:auto;
+          width: 100%;
+        }
+
+        header {
+          /*background-image: url('img/header.jpg');*/
+          background-image: url('img/phoenix.jpeg');
+          width: 100vw;
+          height: 100px;
+          margin-top: -20px;
+        }
+
+        h1.slogan {
+          font-family: 'Press Start 2P';
+          color: ghostwhite;
+          stroke: 11px black;
+          font-size: 2em;
+
+        }
+  /*
+  body {
+      background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+      background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;   
+  }
+
+  }
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+*/
+
+
+
+@use 'sass:color';
+
+$hue: 277deg; // change me (0deg-360deg)
+$hue-adjust: 135deg; // and me
+
+$hue-contrast: color.hue(color.adjust(hsl($hue, 100%, 50%), $hue: $hue-adjust));
+
+:root {
+  --page-background: #{$hue}, 55%, 12%;
+}
+
+div#contact{
+
+font-family: Silkscreen, sans-serif;
+}
+
+button {
+
+  --text-base: #{$hue}, 55%, 40%;
+  --text-hover: #{$hue + 30}, 72%, 86%;
+
+  --shadow-start: #{$hue-contrast}, 100%, 72%;
+  --shadow-end: #{$hue + 5}, 90%, 50%;
+
+  --shadow-inner: #{$hue}, 90%, 62%;
+
+  all: unset;
+
+  /* Text*/
+  color: hsla(var(--text-base), 1);
+  font: 700 2.2em Silkscreen , sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+
+  /* Button sizing*/
+  padding: 0.85em;
+  max-width: 100%;
+  width: 12em;
+
+  /* Button styling */
+  background: inherit;
+  background-clip: padding-box;
+  border: 5px solid hsla(var(--text-base), 1);
+  border-radius: 2em;
+  cursor: pointer;
+
+  /* Effects */
+  position: relative;
+  transition: 0.25s ease-out;
+
+  /* Set up pseudo elements */
+  &::before,
+  &::after {
+    content: "";
+    border-radius: inherit;
+    transition: inherit;
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  /* Gradient shadow */
+  &::before {
+   
+    inset: -0.2em;
+    z-index: -1;
+
+
+    background: linear-gradient(hsla(var(--shadow-start), 1), hsla(var(--shadow-end), 1));
+    filter: blur(1.2em) saturate(1.2);
+
+    transform-origin: bottom;
+    transform: scaleY(0.5);
+    opacity: 0;
+  }
+
+  /* Semi-transparent blended box-shadow brightens up the border */
+  &::after {
+   
+    box-shadow: inset 0 0 0 1px #fff, 
+      0 0 0 4px hsla(0deg, 0%, 100%, 0.7), 
+      1px 1px 0 4px #fff;
+    mix-blend-mode: overlay;
+
+
+    opacity: 0;
+  }
+
+  &:hover,
+  &:focus {
+    color: hsla(var(--text-hover), 1);
+
+    
+    border-color: transparent;
+
+
+    box-shadow: 
+      inset 0 1.4em 0 hsla(var(--shadow-inner), 0.1), 
+      inset 0 0 1.4em hsla(var(--shadow-inner), 0.32), 
+      0 1px 1px hsla(var(--shadow-inner), 0.32); 
+
+    &::before,
+    &::after {
+      transform: none;
+      opacity: 1;
+    }
+  }
+}
+
+body,
+.contact {
+  background: hsla(var(--page-background), 1);
+}
+
+.contact {
+  padding: 3em;
+  position: relative;
+  z-index: 1;
+}
+
+
+a:hover {
+  text-decoration: none;
+  font-family: 'Silkscreen', sans-serif;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<header>
+
+<br>
+
+<center><h1 class="slogan">Married Gamers &amp; Musicians Rescuing Animals</h1></center>
+
+</header>
+
+  <!-- Insert Stacks Begin -->
+  <section class="three-column">
+
+
+<br>
+<br>
+<br>
+
+  <div class="container" >
+
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="nav">Twitch Affiliate</h2>
+
+
+       <p class="fancy" style="margin-top:20px;">A dream team, husband and wife, Norell and Zander made Twitch Affiliate!</p>
+       <p class="fancy">Follow and subscribe to them on Twitch.TV and support them on their path to Twitch Partnership!</p>
+       <a href="https://twitch.tv/bandfamous" title="Join us on Twitch at twitch.tv/bandfamous where we stream games and music!" target="_blank">FOLLOW / SUBSCRIBE ON TWITCH</a>
+       <br>
+       <a href="https://twitch.tv/bandfamous" title="Join us on Twitch at twitch.tv/bandfamous where we stream games and music!" target="_blank"><img src="img/affiliates/twitch.png" alt="support us on twitch" style="width: 22vw; height: auto; min-width: 300px; max-width: 500px;" /></a>
+
+       <br>
+         
+      </div>
+   
+       <div class="col-md-4">
+        <h2 class="nav">Bandcamp</h2>
+
+
+       <p class="fancy" style="margin-top:20px;">You may own almost the entire discography by The Band Famous&#174; on Bandcamp for over 50% off!</p>
+       <p class="fancy"></p>
+       <p class="fancy">Music sales also help support our animal rescue sanctuary.</p>
+       <a href="https://bandfamous.bandcamp.com" target="_blank" title="Buy our music on Bandcamp to support our animal rescue sanctuary!">BUY MUSIC ON BANDCAMP</a>
+       <br>
+       <a href="https://bandfamous.bandcamp.com" target="_blank" title="Buy our music on Bandcamp to support our animal rescue sanctuary!"><img src="img/affiliates/bandcamp.png" alt="support us on bandcamp" style="width: 26vw; height: auto; min-width: 300px; max-width: 500px;" /></a>
+
+       <hr>
+
+       <h2 class="nav">Etsy</h2>
+
+
+       <p class="fancy" style="margin-top:20px;">Support your friendly husband-wife small-business!</p>
+       <p class="fancy"></p>
+       <p class="fancy">Sales also help support our animal rescue sanctuary.</p>
+       <a href="https://bandfamous.etsy.com" target="_blank" title="Buy our merch on Etsy to support our animal rescue sanctuary!">BUY MERCH ON ETSY</a>
+       <br>
+      <a href="https://bandfamous.etsy.com" target="_blank" title="Buy our merch on Etsy to support our animal rescue sanctuary!"><img src="img/affiliates/etsy.png" alt="support us on etsy" style="width: 26vw; height: auto; min-width: 300px; max-width: 500px;" /></a>
+      
+       <br>
+
+        
+      </div>
+   
+      <div class="col-md-4">
+        <h2 class="nav">Patreon</h2>
+
+       <p class="fancy" style="margin-top:20px;">There are no words that can fully express the gratitude we have in our hearts for our Patrons. <br>Your support helps us with animal feed, supplies, and more!</p>
+       <p class="fancy">$1.00 a month is more than enough, we consider that generous!</p>
+       
+       <a href="https://patreon.com/thebandfamous" title="Support our independent music and animal rescue sanctuary for $1.00 a month!" target="_blank">BECOME A PATRON</a>
+       <br>
+       <a href="https://patreon.com/thebandfamous" title="Become a Patron for as little as $1.00 a month!" target="_blank"><img src="img/affiliates/patreon.png" alt="become a patron for $1.00" style="width: 25vw; height: auto; min-width: 300px; max-width: 500px;" /></a>
+        <br>
+      </div>
+
+    </div>
+
+    <br>
+
+
+<!-- Shop Support Us -->
+
+    
+    <a href="https://www.etsy.com/listing/1553384325/kurt-cobain-ceramic-mug-by-the-band?click_key=a6c2cee5c5faf3dd7d85c301103e59961816bf53%3A1553384325&click_sum=8c41ec92&ref=shop_home_active_2" target="_blank" title="Kurt Cobain Ceramic Mug by The Band Famous 15oz"><img src="img/shop/KurtCobainMug.png" style="width: 20vw; height: auto; min-width: 250px;"/></a>
+
+
+    <a href="https://www.etsy.com/listing/1535579162/kurt-cobain-collage-by-the-band-famous?click_key=ded4358ebb74c3154d7270c9d7e9339f8def9327%3A1535579162&click_sum=4579206d&ref=shop_home_active_3&frs=1&variation0=3767685902" target="_blank" title="Kurt Cobain, Collage by The Band Famous, Unisex Heavy Cotton Tee "><img src="img/shop/KurtCobainBFtee.png" style="width: 21vw; height: auto; min-width: 250px;"/></a>
+
+
+
+    <a href="https://www.etsy.com/listing/1064663147/love-art-by-zander-the-band-famous?click_key=11004a88204628f4f1f818f9d2abdd721e1f1ed9%3A1064663147&click_sum=21ce57ac&ref=shop_home_active_4" target="_blank" title="Love, Art by Zander, The Band Famous Accent Coffee Mug, 11oz"><img src="img/shop/LoveMug2.jpg" style="width: 20vw; height: auto; min-width: 250px;"/></a>
+
+
+    <a href="https://www.etsy.com/listing/1050714378/love-art-by-zander-the-band-famous" target="_blank" title="Walk on sunshine in these Love Boots! Art by Zander, Design by Norell."><img src="img/shop/LoveBoots.jpg" style="width: 21vw; height: auto; min-width: 250px;"/></a>
+
+
+
+
+
+    <script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script><script type='text/javascript'>new Etsy.Mini(31350808,'thumbnail', 4, 3, 0,'https://www.etsy.com');</script>
+
+
+
+    <br>
+    <br>
+    <p class="fancy">We love to game and make music when we aren't tending to the many animals in our care. We live off grid, which poses its challenges, but we're resourceful and have built many coops with recycled materials. We're powered by the sun with solar power, which is what enables us to stay connected to all of you! And it allows us to work on no man's land where we care for chickens, ducks, rabbits, turtles, dogs, cats, and more in the high desert. We have rescued, fostered and re-homed many animals, and provide sanctuary to many more.</p>
+    <br>
+
+  </div> 
+
+
+  <center>
+
+
+    
+    <div class="contact">
+      <a href="contact.html" title="Contact Us" style="font-family: Silkscreen, sans-serif;"><button>Drop Us A Line</button></a>
+    </div>
+
+
+  </center>
+  <br>
+
+  </section>
+
+
+  <img src="img/phoenix.jpeg" alt="Like the Phoenix, We Rise Above the Ashes" style="width: 100vw; height: auto; margin-top: -20px;" />
+
+
+
+
+<div id="footer" style="background-color:lavender; color: black; clear:both;text-align:center; font-family: 'Michroma', sans-serif; margin-top:auto;"><p>Like the Phoenix, We Rise Above the Ashes<br><br>Copyright &copy; Ph&ouml;nix LLC</p></div>
+
+
+
+</body>
+</html>

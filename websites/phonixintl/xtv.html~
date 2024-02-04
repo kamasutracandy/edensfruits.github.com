@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+  content="text/html; charset=UTF-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="keywords" content="XTV, Jacob Frey, Bill Moyers, Senator, Amy Klobuchar, YPM, young progressive majority Minnesota, government shutdown, media, news, broadcasting, interview, blog, photos, X Revolution, Revolution, grass roots media, media project, the big gay race">
+  <meta name="description" content="XTV was a grass-roots media campaign and project founded by Jacob Alexander/Zander, along with the help of Norell and other rotating artists and activists. Norell and Zander conducted several interviews, and produced multi-media blogs of various events covered by XTV.">
+  <title>Ph&ouml;nix Intl Creative Agency</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css"
+  href="css/xprojects.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'/>
+  <style>
+    ul.topnav {
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      background-size: 100%;
+      background-repeat: repeat;
+      min-height:70px;
+      height:auto;
+      width: 100%;
+      
+
+    }
+
+    p {
+
+      font-family: 'Philosopher', sans-serif;
+      font-size: 1.2em;
+      color: black;
+      margin:20px auto;
+      text-align: center;
+      line-height: 1.2em;
+      color: black;
+      max-width: 800px;
+      min-width: 230px;
+
+    }
+
+
+  </style>
+</head>
+<body>
+<ul class="topnav" id="phonixnav">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="team.html">BAND</a></li>
+  <li><a href="apps.html">APPS</a></li>
+  <li><a href="contact.html">SUPPORT</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    <script>
+      function myFunction(){
+        var x = document.getElementById("phonixnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </li>
+</ul>
+<hr>
+<hr>      
+<hr>
+<h1>XTV</h1>
+<div id="container">
+     
+<center>
+  <div id="container" style="background: lavender; width: 95%;">
+    <br>
+    <p>XTV was a grass roots media project and organization started by Zander and Norell, which brought other creative people together to help capture various events and things which would not normally receive press coverage. They went on to cover topics concerning the community and documented some political events with Young Progressive Majority Minnesota. Some highlights include interviewing Jacob Frey, who currently resides on the 3rd Ward City Council of Minneapolis, to MN Senator Amy Klobuchar, to renowned media icon and legend Bill Moyers himself, in cooperation with CSPAN network.</p>
+  <ul class="figure">
+  <li>
+    <figure class="liveart">
+        
+      <center><img src="images/xprojects/bill1.jpg" style="width: 110%; height: auto;"/></center>
+            
+      <figcaption>
+        <br>
+       <p class="buy" style="font-size: 18px; color: white; line-height: 110%; text-align: center;">We were invited by YPM to join a private event with special guest and media icon, Bill Moyers.</p>The event took place at a lovely home on Summit Hill in Saint Paul, MN in the summer of 2011. Bill Moyers was present in support of democracy reform with Ranked Choice Voting
+      </figcaption>
+
+    </figure>
+  </li>
+  <li>
+    <figure class="liveart">
+            
+      <center><img src="images/xprojects/jacobfrey.jpg" style="width: 103%; height: auto;"/></center>
+            
+      <figcaption>
+        <br>
+        <p class="buy" style="font-size: 18px; color: white; line-height: 110%; text-align: center;">Norell interviewing Jacob Frey at a YPM fundraising event where we also interviewed Minnesota Senator Amy Klobuchar.</p>Jacob Frey is now on the Minneapolis City Council of the 3rd Ward.
+      </figcaption>
+      
+    </figure>
+  </li>
+  <li>
+    <figure class="liveart">
+            
+      <center><img src="images/xprojects/bill2.jpg" style="width: 103%; height: auto;"/></center>
+            
+      <figcaption>
+        <p class="buy" style="font-size: 18px; line-height: 110%; text-align: center; color: white;">Bill Moyers with YPM and Ranked Choice Voting in Saint Paul, Minnesota.</p>CSPAN was also broadcasting the event. Norell represented XTV when she posed an interview question for Bill Moyers.
+      </figcaption>
+      
+    </figure>
+  </li>
+  <li>
+    <figure class="liveart">
+            
+      <center><img src="images/xprojects/protest.jpg" style="width: 103%; height: auto;"/></center>
+            
+      <figcaption>
+        <p class="buy" style="font-size: 18px; line-height: 110%; text-align: center; color: white;">We were with protestors at the State Capital on Thursday, June 30th, 2011.</p>Minnesota workers came to take a stand against the threat of a government shutdown that would cut thousands of jobs and devastate the community.
+      </figcaption>
+      
+    </figure>
+  </li>
+  <li>
+    <figure class="liveart">
+            
+      <center><img src="images/xprojects/ypm.jpg" style="width: 105%; height: auto;"/></center>
+            
+      <figcaption>
+        <p class="buy" style="font-size: 18px; line-height: 110%; text-align: center; color: white;">We interviewed President of Young Progressive Majority of Minnesota [YPM], Sarah Clark, and Vice President, Cassidy Gardenier at a fundraising event to benefit families affected by the havoc tornados wreaked in North Minneapolis of 2011.</p>
+          YPM believes in: 
+          *Respect of Human Rights and Freedoms for All People
+          *Economic Responsibility (By Businesses and To Citizens)
+          *Environmental Responsibility
+          *The Right to Universal Healthcare
+          *The Right to Free, Quality Education
+          *The Right to Choose (Life Partners, Citizenship, Family Freedom)
+      </figcaption>
+      
+    </figure>
+  </li>
+  <li>
+    <figure class="liveart">
+            
+      <center><img src="images/xprojects/xtv.jpg" style="width: auto; height: 103%;"/></center>
+            
+      <figcaption>
+        <p class="buy" style="font-size: 18px; line-height: 110%; text-align: center; color: white;">We interviewed Minnesota Senator Amy Klobuchar at a fundraising event, and questioned her on her campaign.</p>
+      </figcaption>
+      
+    </figure>
+  </li>
+</ul>
+<br>
+<br>
+</div>
+</center>
+<br>
+
+<div id="footer" style="background-color:lavender; color: black; clear:both;text-align:center; font-family: 'Michroma', sans-serif;">Copyright &copy; Ph&ouml;nix LLC</div>
+</body>
+</html>

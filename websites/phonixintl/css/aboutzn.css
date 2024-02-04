@@ -1,0 +1,424 @@
+html{
+  background: white;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+body {
+  height: 100%;
+}
+
+.newspaper
+{
+columns:100px 3;
+-webkit-columns:100px 3; /* Safari and Chrome */
+-moz-columns:100px 3; /* Firefox */
+}
+#content{
+    min-width: 320px;
+}
+
+.main-nav{
+  display:inline-block;
+  margin-left: 2%;
+}
+
+nav > ul {
+  margin-top: 2em;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 2em;
+  list-style: none;
+}
+
+nav > ul > li {
+  position: relative;
+  margin-right: 1em;
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  font-family: 'Michroma', sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: #0199c7;
+  border-top: 1px 1px #0199c7;
+  background: lavender;
+  padding: 10px 14px;
+  text-shadow: #0199c7;
+}
+
+nav > ul > li > a {
+  border-radius: 5px;
+  border: 0;
+  box-shadow: #0199c7;
+}
+
+nav ul > li ul {
+  position: absolute;
+  width: 200px;
+  background: lavender;
+  border-radius: 5px;
+  padding: 5px 0;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: #0199c7;
+  list-style: none;
+}
+
+nav ul > li ul:after {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 1em;
+  height: 0; 
+  width: 0;
+  border: 6px solid transparent;
+  border-bottom-color: #0199c7;
+}
+
+nav > ul li a:hover {
+  background: #0199c7;
+  box-shadow: #0199c7;
+  color:indigo;
+  text-decoration: underline;
+}
+
+nav > ul li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  top: 2.7em;
+  background: lavender;
+}
+
+nav > ul li > ul > li {
+  position: relative;
+}
+
+nav > ul > li > ul > li > ul {
+  left: 105%;
+  top: -2.5em !important;
+  z-index: 1;
+  width: 180px;
+}
+
+nav > ul > li > ul > li > ul:hover {
+  width: 200px;
+  background: lavender;
+}
+
+nav > ul > li > ul > li > ul:after {
+  content: "";
+  position: absolute;
+  top: 1em;
+  left: -12px;
+  height: 0; width: 0;
+  border: 6px solid transparent;
+  border-right-color: #427fed;
+}
+
+nav > ul > li > ul > li:hover > ul {
+  top: 0 !important;
+}
+
+
+.drop,.dropp {
+  padding-right: 2em;
+}
+
+.drop:after,
+.dropp:after{
+  content: "";
+  position: absolute;
+  height: 0; width: 0;
+  border: 6px solid transparent;
+}
+
+.drop:after {
+  right: 8px;
+  top: 14px;
+  border-top-color: #427fed;
+}
+
+.dropp:after {
+  top: 12px;
+  right: 8px;
+  border-left-color: #427fed;
+}
+
+/* Phones to Tablets */
+
+@media only screen and (min-width: 481px) {
+  .col {
+    float: left;
+  }
+  .main {
+    width: 65.957446808511%;
+  }
+  .secondary {
+    width: 31.914893617021%; 
+  }
+  .secondary,
+  .extra {
+    margin-left: 2.127659574468%;
+  }
+}
+#container {
+	position: center;
+}
+
+
+#contact-form {  
+    /*min-width: 320px;*/
+    width:720px;
+    position: relative;
+    background-color:#F2F7F9;  
+    padding:20px;  
+    margin: 50px auto;      
+    border: 6px solid #8FB5C1;  
+    -moz-border-radius:15px;  
+    -webkit-border-radius:15px;  
+    border-radius:15px;  
+    /*position:center;  */
+}  
+
+#contact-form fieldset{
+   /*border: 2px dotted #8FB5C1; */
+   border: none;
+}  
+
+#contact-form legend{
+    font-family: "Julius Sans One";
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#contact-form ul{
+    list-style: none;
+}
+
+#contact-form ul li{
+    font-family: "Ovo";
+    font-size: 20px;
+}
+
+#contact-form h1 {  
+    font-size:42px;  
+}  
+  
+#contact-form h2 {  
+    margin-bottom:15px;  
+    font-style:italic;  
+    font-weight:normal;  
+}  
+  
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea,   
+#contact-form label {  
+    font-size:15px;  
+    margin-bottom:10px;  
+}  
+  
+#contact-form input,  
+#contact-form select,   
+#contact-form textarea {  
+    width:450px;  
+    border: 1px solid #CEE1E8;  
+    margin-bottom:20px;  
+    padding:4px;  
+}  
+  
+#contact-form input:focus,   
+#contact-form select:focus,   
+#contact-form textarea:focus {  
+    border: 1px solid #AFCDD8;  
+    background-color: #EBF2F4;  
+}  
+  
+#contact-form textarea {  
+    height:150px;  
+    resize: none;  
+}  
+  
+#contact-form label {  
+    display:block;  
+}  
+
+#contact-form span{
+    font-family: "Poiret One";
+    font-size: 14px;
+}
+  
+#contact-form .required {  
+    font-weight:bold;  
+    color:#F00;      
+}  
+  
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */  
+input:required, textarea:required {  
+    -moz-box-shadow:none;  
+    -webkit-box-shadow:none;  
+    -o-box-shadow:none;  
+    box-shadow:none;  
+}  
+  
+/* Normalize placeholder styles */  
+  
+/* chrome, safari */  
+::-webkit-input-placeholder {  
+    color:#CCC;  
+    font-style:italic;  
+}  
+  
+/* mozilla */  
+input:-moz-placeholder, textarea:-moz-placeholder {  
+    color:#CCC;  
+    font-style:italic;  
+}  
+  
+/* ie (faux placeholder) */  
+input.placeholder-text, textarea.placeholder-text  {   
+    color:#CCC;  
+    font-style:italic;  
+}  
+
+body {
+	background: white;
+	font-family: georgia, times, serif;
+	line-height: 1.4em;	
+	min-width: 720px;
+
+article {
+	position: relative;
+	margin: auto;
+	width: 920px;
+	padding: 20px;
+	background: purple;
+	box-shadow: 0px 0px 10px #333;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    -ms-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	-o-column-gap: 1em;
+	-ms-column-gap: 1em;
+	column-gap: 1em;
+
+}
+article p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	-webkit-column-width: 20em;
+	-moz-column-width: 20em;
+	-o-column-width: 20em;
+	-mz-column-width: 20em;
+	column-width: 20em;
+	
+	-webkit-column-fill: balanced;
+	-moz-column-fill: balanced
+	-o-column-fill: balanced
+	-ms-column-fill: balanced
+	-column-fill: balanced
+}
+
+.rect {
+	float:left;
+	height: 500px;
+	width: 100%;
+	position:relative;
+}
+
+      h1 {
+        position: relative;
+        font-family: 'Rock Salt', cursive;
+        font-size: 120px;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        text-align: center;
+        text-shadow: 4px 4px #0199c7;
+
+      }
+
+      p.title {
+        text-align: right;
+        margin-bottom: 20px;
+        font-family: 'Michroma', sans-serif;
+        font-size: 2em;    
+        margin-top: -40px;  
+      }
+
+      nav.main-nav a {
+        color: #0199c7;
+      }
+
+
+
+p {
+	color:text:blue;
+}
+
+a, a:visited {
+  color:#427fed;
+}
+
+a:hover {
+  color:#82afff;
+}
+
+ul li {
+  list-style:none;
+  overflow:hidden;
+  border:1px solid #dedede;
+  margin:5px;
+  padding:5px;
+}
+
+ul li:hover {
+  background-color:#f0f3fb;
+}
+
+
+#errors {
+    font-family: 'Poiret One';
+    margin: auto; 
+    padding: 4px 22px 4px 22px;
+    border: 1px double #5e0f0f;
+    border-radius: 30px;
+    background: #fae9f5;
+    outline: dotted white;
+    display: block;
+    text-align: center; 
+    background-color: #d11151;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+        nav.main-nav{
+          margin-bottom: 50px;
+          margin-left: 0px;
+        }
+
+
+        nav.main-nav ul li {
+          border:1px solid #dedede;
+          margin:5px;
+          padding:5px;
+        }
+
+        nav.main-nav ul li:hover {
+          background-color:#f0f3fb;
+        }
+
+
+        h1.slogan {
+          font-family: 'Michroma', sans-serif;
+          margin-left: 11px;
+          font-size: 36px;
+          text-shadow: 2px 2px #0199c7;
+        }

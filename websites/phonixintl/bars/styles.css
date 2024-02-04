@@ -1,0 +1,35 @@
+/*
+Project 4: Hybrid Web App
+Mobile Development Frameworks 3
+Jacob Figueroa
+*/
+
+@font-face {
+	font-family: 'IM Fell Double Pica';
+	src: url('http://fonts.googleapis.com/css?family=Cherry+Cream+Soda|Quicksand|Londrina+Sketch|Monoton|IM+Fell+Double+Pica|Nothing+You+Could+Do');
+	}
+
+body {
+	background: url(http://i.imgur.com/yM7gmt7.png?1) #111;
+	background-size: 100%;
+	width: 100%;
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	vertical-align: center;
+	margin-top: 120px;
+	margin-left: 40px;
+
+}
+
+
+ul li {
+	vertical-align: center;
+	list-style: none;
+}
+
+div #main {
+	margin-top: 200px;
+}

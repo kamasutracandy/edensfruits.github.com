@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+  content="text/html; charset=UTF-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="keywords" content="x projects, vwink, vw|NK Agency, vwink agency, Karnak, Karnak Gallery, XTV, X Fashion, X Revolution, Famous, X, projects">
+  <meta name="description" content="Phönix's Zander &amp; Norell are both Developers, Designers, Artists, and More. This site will give you insight to X Projects of Zander &amp; Norell.">
+  <title>Ph&ouml;nix Intl Creative Agency</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css"
+  href="css/xprojects.css"/>
+  <link rel="stylesheet" href="css/foundation/foundation.css" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Crushed|News+Cycle:400,700|Michroma|Philosopher:400,700,400italic,700italic|Architects+Daughter|Orbitron:400,500,700,900|Rock+Salt' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Codystar|Give+You+Glory|Poiret+One|Londrina+Outline|Ovo|Great+Vibes|Julius+Sans+One|Shadows+Into+Light+Two|Megrim' rel='stylesheet' type='text/css'/>
+  <style>
+
+      /* Responsive Nav Bar */
+
+    ul.topnav {
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      background-size: 100%;
+      background-repeat: repeat;
+      min-height:70px;
+      height:auto;
+      width: 100%;
+      
+
+    }
+
+    p {
+
+      font-family: 'Philosopher', sans-serif;
+      font-size: 1.2em;
+      color: black;
+      margin:20px auto;
+      text-align: center;
+      line-height: 1.2em;
+      color: black;
+      max-width: 800px;
+      min-width: 230px;
+
+
+    }
+
+  </style>
+</head>
+<body>
+<ul class="topnav" id="phonixnav">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="team.html">BAND</a></li>
+  <li><a href="apps.html">APPS</a></li>
+  <li><a href="contact.html">SUPPORT</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    <script>
+      function myFunction(){
+        var x = document.getElementById("phonixnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </li>
+</ul>
+<hr>
+<hr>      
+<hr>
+<h1>Past</h1>
+
+<center>
+
+  <div style="background: lavender; width:80%; margin:0 auto; padding:50px 50px;">
+
+    <div id="container" style="min-height:800px; height: auto;">
+      <p style="font-size: 17px;">CEO Jacob Alexander Figueroa past projects include <u>Mixed Media</u> artworks; several self-curated <u>Exhibits</u> and public art installations as well as features in art shows including "Translucent Threads" at the Broadway Gallery in NYC, with many artworks published in prestigious NY Arts Magazine; <u>Body Painting</u> including for musician and producer Paul Van Dyk, Benny Benassi, Summerset Music and Camping Festival, Sexapalooza, NY Fashion Week; <u>Photography</u> and portfolio development for several aspiring and successful models, with some photography being exhibited at FIMA in Montreal to over 75,000 art lovers in attendance; opening and running <u>Karnak Gallery</u> a multimedia public art venue in the heart of downtown Minneapolis; working under the pseudonym <u>vw|NK</u> (vwINK / VWInk Agency / Virtual Warrior Ink) for several prestigious clientele including Red Bull; pioneering <u>X Fashion</u>, a body paint fashion fusion with elements of saran wrap and aluminum foil among other reflective materials; and <u>XTV</u>, a media project with highlights including having the prestige and honor of photographing and interviewing Senator Amy Klobuchar, as well as incredibly, media icon Bill Moyers.</p>
+    <!-- Catalog style linking to different pages. Mixed Media, Body Painting, Music, Fashion, Photography,  Websites, Karnak, vw|NK -->
+      <!--Pattern HTML-->
+      <div id="pattern" class="pattern">
+
+        <div class="col-group">
+
+          <div>
+            <h3>Mixed Media</h3>
+            <ul class="clearing-thumbs clearing-feature" data-clearing> 
+                <li class="clearing-featured-img"><a href="images/zander/start.jpg"><img data-caption="Art by Jacob Alexander Figueroa. Photo by Johnny Jiron" src="images/zander/start.jpg" alt="Zander" style="max-height: 400px; min-height: 180px; width: auto;" title="Click to view sample mixed media artwork."></a></li>
+                <li><a href="images/zander/clock.jpg"><img data-caption="Earth, Sun &amp; Moon - Clock Edition by Jacob Alexander Figueroa" src="images/zander/clock.jpg" alt="Clock Design"></a></li> 
+                <li><a href="images/zander/shoes.jpg"><img data-caption="Shoe Design by Jacob Alexander Figueroa" src="images/zander/shoes.jpg" alt="Shoe Design"></a></li> 
+                <li><a href="images/zander/pathPassion.jpg"><img data-caption="Path of Passion by Jacob Alexander Figueroa" src="images/zander/pathPassion.jpg" alt="Path of Passion"></a></li> 
+                <li><a href="images/zander/ilovesex.jpg"><img data-caption="I Love Sex by Jacob Alexander Figueroa" src="images/zander/ilovesex.jpg" alt="I Love Sex"></a></li> 
+                <li><a href="images/zander/garden.jpg"><img data-caption="Garden of Ascension by Jacob Alexander Figueroa" src="images/zander/garden.jpg" alt="Garden of Ascension"></a></li> 
+                <li><a href="images/zander/poseidon.jpg"><img data-caption="Poseidon by Jacob Alexander Figueroa" src="images/zander/poseidon.jpg" alt="Poseidon"></a></li> 
+                <li><a href="images/zander/art.jpg"><img data-caption="Famous by Jacob Alexander Figueroa" src="images/zander/art.jpg" alt="Famous"></a></li> 
+                <li><a href="images/zander/Questioneverything.jpg"><img data-caption="Question Everything by Jacob Alexander Figueroa" src="images/zander/Questioneverything.jpg" alt="Question Everything"></a></li> 
+                <li><a href="images/zander/reincarnation.jpg"><img data-caption="Reincarnation by Jacob Alexander Figueroa" src="images/zander/reincarnation.jpg" alt="Reincarnation"></a></li> 
+                <li><a href="images/zander/Love.jpg"><img data-caption="Love by Jacob Alexander Figueroa" src="images/zander/Love.jpg" alt="Love"></a></li> 
+                <li><a href="images/zander/micCheck.jpg"><img data-caption="Mic Check by Jacob Alexander Figueroa" src="images/zander/micCheck.jpg" alt="Mic Check"></a></li> 
+                <li><a href="images/zander/Neverland.jpg"><img data-caption="Neverland by Jacob Alexander Figueroa" src="images/zander/Neverland.jpg" alt="Neverland"></a></li> 
+              </ul>
+            <!--<h3>Here's a column of text</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p>-->
+          </div>
+          <div>
+            <h3>Exhibits</h3>
+               <ul class="clearing-thumbs clearing-feature" data-clearing> 
+                <li class="clearing-featured-img"><a href="images/zander/x1.jpg"><img data-caption="NY Arts Magazine Feat. Love by Jacob Alexander Figueroa" src="images/zander/x1.jpg" alt="Press and Exhibits" style="max-height: 400px; width: auto;" title="Click to view sample press and exhibits."></a></li> 
+                <li><a href="images/zander/x2.jpg"><img data-caption="NY Arts Magazine Feat. Vida by Jacob Alexander Figueroa" src="images/zander/x2.jpg" alt="Press and Exhibits"></a></li> 
+                <li><a href="images/zander/x3.jpg"><img data-caption="NY Arts Magazine Feat. Path of Passion by Jacob Alexander Figueroa" src="images/zander/x3.jpg" alt="Press and Exhibits"></a></li> 
+                <li><a href="images/zander/x4.jpg"><img data-caption="Minneapolis St. Paul International Film Festival Feat. by Jacob Alexander Figueroa" src="images/zander/x4.jpg" alt="Press and Exhibits"></a></li> 
+                <li><a href="images/zander/x5.jpg"><img data-caption="Paul Van Dyk, Body Painting by Jacob Alexander Figueroa" src="images/zander/x5.jpg" alt="Press and Exhibits"></a></li> 
+                <li><a href="images/zander/x7.jpg"><img data-caption="Sexapalooza Minneapolis with Norell &amp; Jacob Alexander Figueroa" src="images/zander/x7.jpg" alt="Press and Exhibits"></a></li> 
+                <li><a href="images/zander/x8.jpg"><img data-caption="Sexapalooza Portland with Norell &amp; Jacob Alexander Figueroa" src="images/zander/x8.jpg" alt="Press and Exhibits"></a></li> 
+                <li><a href="images/zander/x9.jpg"><img data-caption="Benny Benassi, Body Painting by Jacob Alexander Figueroa" src="images/zander/x9.jpg" alt="Press and Exhibits"></a></li> 
+                <li><a href="images/zander/x10.jpg"><img data-caption="Twin Cities Pride Festival - The Gay 90s Feat. Body Painting by Jacob Alexander Figueroa" src="images/zander/x10.jpg" alt="Press and Exhibits"></a></li>
+                <li><a href="images/zander/x11.jpg"><img data-caption="Twin Cities Pride Parade - City Pages Feat. Body Painting by Jacob Alexander Figueroa" src="images/zander/x11.jpg" alt="Press and Exhibits"></a></li>
+                <li><a href="images/zander/xx.jpg"><img data-caption="All Over the Walls, a Blue Bride Media Group Documentary Feat. Jacob Alexander Figueroa" src="images/zander/xx.jpg" alt="Press and Exhibits"></a></li>
+                <li><a href="images/zander/aotw.jpg"><img data-caption="All Over the Walls, a Blue Bride Media Group Documentary Feat. Jacob Alexander Figueroa" src="images/zander/aotw.jpg" alt="Press and Exhibits"></a></li> 
+              </ul>
+           
+            
+          </div>
+          <div>
+            <h3>Body Painting</h3>
+             <ul class="clearing-thumbs clearing-feature" data-clearing> 
+                <li class="clearing-featured-img"><a href="images/model/Maze-Amazed.jpg"><img src="images/model/Maze-Amazed.jpg" style="max-height: 400px; width: auto;" title="Click to view sample body painting images." data-caption="Body Art by Jacob Alexander Figueroa"></a></li>
+                <li><a href="images/model/32.jpg"><img src="images/model/32.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/10.jpg"><img src="images/model/10.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/buckaneer.jpg"><img src="images/model/buckaneer.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/maze.jpg"><img src="images/model/maze.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/medusa.jpg"><img src="images/model/medusa.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/angie2.jpg"><img src="images/model/angie2.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/stargirl.jpg"><img src="images/model/stargirl.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/40.jpg"><img src="images/model/40.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/kittie.jpg"><img src="images/model/kittie.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/angie.jpg"><img src="images/model/angie.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li>
+                <li><a href="images/model/ellie.jpg"><img src="images/model/ellie.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/carley.jpg"><img src="images/model/carley.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/12.jpg"><img src="images/model/12.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/13.jpg"><img src="images/model/13.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/16.jpg"><img src="images/model/16.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/19.jpg"><img src="images/model/19.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li>
+                <li><a href="images/model/25.jpg"><img src="images/model/25.jpg"data-caption="Body Art by Jacob Alexander Figueroa" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/epic.jpg"><img src="images/model/epic.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li>
+                <li><a href="images/model/39.jpg"><img src="images/model/39.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/45.jpg"><img src="images/model/45.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/46.jpg"><img src="images/model/46.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/48.jpg"><img src="images/model/48.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/49.jpg"><img src="images/model/49.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li>
+                <li><a href="images/model/RichardPendleton7.jpg"><img src="images/model/RichardPendleton7.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/50.jpg"><img src="images/model/50.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/angel devil.jpg"><img src="images/model/angel devil.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/Behind the Scenes1.jpg"><img src="images/model/Behind the Scenes1.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/coral.jpg"><img src="images/model/coral.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/Rainbow.jpg"><img src="images/model/Rainbow.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/RichardPendleton3.jpg"><img src="images/model/RichardPendleton3.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/ButterflyWoman-640x428.jpg"><img src="images/model/ButterflyWoman-640x428.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/BlackWidow-640x534.jpg"><img src="images/model/BlackWidow-640x534.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li> 
+                <li><a href="images/model/XXX.jpg"><img src="images/model/XXX.jpg" data-caption="Body Art by Jacob Alexander Figueroa"></a></li>
+              </ul>
+          </div>
+          <div>
+            <h3>Photography</h3>
+            <ul class="clearing-thumbs clearing-feature" data-clearing> 
+              <li class="clearing-featured-img"><a href="images/norell/start.jpg"><img style="max-height: 400px; width: auto;" data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/start.jpg" alt="Norell" title="Click to view sample portfolio."></a></li> 
+              <li><a href="images/norell/002.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/002.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/003.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/003.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/004.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/004.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/005.jpg"><img data-caption="vw|NK Agency- Photography by Jacob Alexander Figueroa" src="images/norell/005.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/006.JPG"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/006.JPG" alt="Norell"></a></li> 
+              <li><a href="images/norell/007.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/007.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/009.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/009.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/012.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/012.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/013.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/013.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/014.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/014.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/015.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/015.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/016.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/016.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/017.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/017.jpg" alt="Norell"></a></li> 
+              <li><a href="images/norell/018.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="images/norell/018.jpg" alt="Norell"></a></li>
+              <li><a href="img/ab/full/jacob - figueroa - american beauty.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="img/ab/full/jacob - figueroa - american beauty.jpg" alt="Norell &amp; Emily"></a></li>
+				  <li><a href="img/ab/full/jacob - figueroa - fall flavors.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="img/ab/full/jacob - figueroa - fall flavors.jpg" alt="Norell &amp; Emily"></a></li>
+		        <li><a href="img/ab/full/jacob - figueroa - freedom.jpg"><img data-caption="vw|NK Agency - Photography by Jacob Alexander Figueroa" src="img/ab/full/jacob - figueroa - freedom.jpg" alt="Norell &amp; Emily"></a></li>          
+          </div>
+
+          <div>
+            <h3>Karnak</h3>
+            
+            <ul style="list-style: none;"> 
+              <li class="clearing-featured-img"><a href="karnak.html"><img data-caption="Karnak Gallery" src="images/xprojects/karnakgallery.jpg" alt="Karnak" style="max-height: 400px; width: auto;" title="Click to learn about the origin of Phonix Intl."></a></li>
+                
+                
+            </ul>
+
+
+            <!--<h3>Here's a column of text</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p>-->
+          </div>
+          <div>
+            <h3>vw|NK</h3>
+
+
+               <ul style="list-style: none;"> 
+                <li class="clearing-featured-img"><a href="vwink.html"><img data-caption="vw|Nk Agency" src="images/model/48.jpg" alt="VWInk Agency" style="max-height: 400px; width: auto;" title="Click to see samples from the VWInk Agency project."></a></li> 
+              
+              </ul>
+           
+            
+          </div>
+          <div>
+            <h3>XFashion</h3>
+
+
+             <ul style="list-style: none;"> 
+                <li class="clearing-featured-img"><a href="xfashion.html"><img src="images/xprojects/karenalloy.jpg" style="max-height: 400px; width: auto;" title="Click to view Zander's signature X Fashion." alt="XFashion"></a></li>
+                
+              </ul>
+          </div>
+          <div>
+            <h3>XTV</h3>
+
+            <ul style="list-style: none;"> 
+              <li class="clearing-featured-img"><a href="xtv.html"><img style="max-height: 400px; width: auto;" data-caption="vw|NK Agency" src="images/xprojects/amyklo.jpg" title="See samples of the media project, XTV." alt="XTV"></a></li> 
+              
+            </ul>
+
+          </div>
+
+         
+
+        <!-- getting Karnak / vw|NK / XFashion / XTV underneath first row gallery  and music will be on top above, similar to website -->
+
+      </div>
+      <!--End Pattern HTML-->
+      
+      
+      <div class="container"> 
+        <section class="pattern-description">
+          <h3>Placeholder Text</h3>
+          <p>With our experience spanning from music to art to apps, and everything in between, don't hesitate to contact us with your inquiry today! <br>We are confident that we have the balance you need to meet and exceed the expectations for any project.</p>
+          <h2>Art Bio</h2>
+          <ul style="list-style: none; margin-left:-25px;">
+            <li>TBF Placeholder Text</li>
+            <li>Placeholder</li>
+          </ul>
+        </section>
+
+      </div>
+
+
+    </div>
+  </div>
+</center>
+<br>
+
+<div id="footer" style="background-color:lavender;  color: black; clear:both;text-align:center; font-family: 'Michroma', sans-serif;">Copyright &copy; Ph&ouml;nix LLC</div>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.clearing.js"></script>
+  <!-- Other JS plugins can be included here -->
+
+   <script>
+      $(document).foundation();
+   </script>
+</body>
+</html>
